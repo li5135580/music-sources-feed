@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:51:09+0800",
+ "generated_at": "2026-10-15T11:21:24+0800",
  "test_songs": [
   "晴天 周杰伦",
   "坠落 蔡健雅"
@@ -18,10 +18,10 @@
    "url_path": "",
    "score": 87,
    "quality": "320k",
-   "latency_s": 0.5,
+   "latency_s": 0.54,
    "detail": {
     "bytes": 10792943,
-    "latency_s": 0.5,
+    "latency_s": 0.54,
     "used": ""
    },
    "evidence": [
@@ -32,98 +32,7 @@
     "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v4.0 TSS解密版.js"
    ],
    "enabled": true,
-   "checked_at": "2026-10-15T10:51:09+0800"
-  },
-  {
-   "name": "yuafeng_qq",
-   "platform": "qq",
-   "pattern": "list_id_url",
-   "search_tpl": "https://api-v2.yuafeng.cn/API/qqmusic.php?type=json&msg={kw}&apikey=3ff23523e47465224a3f48579acf41f241540ce04b6cc0b94164f37a5b6299d5",
-   "url_tpl": "https://api-v2.yuafeng.cn/API/qqmusic.php?type=320&mid={id}&apikey=3ff23523e47465224a3f48579acf41f241540ce04b6cc0b94164f37a5b6299d5",
-   "list_path": "data",
-   "id_field": "mid",
-   "title_field": "song",
-   "artist_field": "singer",
-   "url_path": "data.music",
-   "score": 75,
-   "quality": "标准",
-   "latency_s": 1.89,
-   "detail": {
-    "search": "ok",
-    "first": "晴天",
-    "bytes": 3283546,
-    "latency_s": 1.89,
-    "used": "晴天"
-   },
-   "evidence": [
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260322/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
-    "guoyue2010/lxmusic-:lxmusic--main/V2603/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
-    "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js"
-   ],
-   "enabled": true,
-   "checked_at": "2026-10-15T10:51:09+0800"
-  },
-  {
-   "name": "gdstudio",
-   "platform": "netease",
-   "pattern": "list_id_url",
-   "search_tpl": "https://music-api.gdstudio.xyz/api.php?types=search&source=netease&name={kw}&count=10&pages=1",
-   "url_tpl": "https://music-api.gdstudio.xyz/api.php?types=url&source=netease&id={id}&br=320",
-   "list_path": "",
-   "id_field": "id",
-   "title_field": "name",
-   "artist_field": "artist",
-   "url_path": "url",
-   "score": 74,
-   "quality": "320k",
-   "latency_s": 2.75,
-   "detail": {
-    "search": "ok",
-    "first": "晴天(深情版)",
-    "bytes": 11161644,
-    "latency_s": 2.75,
-    "used": "晴天(深情版)"
-   },
-   "evidence": [
-    "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js",
-    "LuoXiaohei-2025/LX-music-collection:LX-music-collection-main/Source of music/星海音乐源.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/星海音乐源 v2.2.8.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/统一音乐源.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js"
-   ],
-   "enabled": true,
-   "checked_at": "2026-10-15T10:51:09+0800"
-  },
-  {
-   "name": "bugpk_163",
-   "platform": "netease",
-   "pattern": "list_id_url",
-   "search_tpl": "",
-   "url_tpl": "https://api.bugpk.com/api/163_music?type=json&ids={id}&level=exhigh",
-   "list_path": "",
-   "id_field": "",
-   "title_field": "",
-   "artist_field": "",
-   "url_path": "url",
-   "score": 72,
-   "quality": "320k",
-   "latency_s": 4.51,
-   "detail": {
-    "bytes": 11161644,
-    "latency_s": 4.51,
-    "used": ""
-   },
-   "evidence": [
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260809/推荐/墨澜聚合音源 v2.0.0.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260810/推荐/墨澜聚合音源 v2.0.0.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260817/其他/星澜.js",
-    "guoyue2010/lxmusic-:lxmusic--main/V260810/推荐/墨澜聚合音源 v2.0.0.js",
-    "guoyue2010/lxmusic-:lxmusic--main/V260817/其他/星澜.js"
-   ],
-   "enabled": true,
-   "checked_at": "2026-10-15T10:51:09+0800"
+   "checked_at": "2026-10-15T11:21:24+0800"
   },
   {
    "name": "nxinxz_kw",
@@ -136,12 +45,12 @@
    "title_field": "",
    "artist_field": "",
    "url_path": "",
-   "score": 72,
+   "score": 85,
    "quality": "320k",
-   "latency_s": 6.86,
+   "latency_s": 0.88,
    "detail": {
     "bytes": 10792943,
-    "latency_s": 6.86,
+    "latency_s": 0.88,
     "used": ""
    },
    "evidence": [
@@ -152,7 +61,69 @@
     "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v4.0 TSS解密版.js"
    ],
    "enabled": true,
-   "checked_at": "2026-10-15T10:51:09+0800"
+   "checked_at": "2026-10-15T11:21:24+0800"
+  },
+  {
+   "name": "yuafeng_qq",
+   "platform": "qq",
+   "pattern": "list_id_url",
+   "search_tpl": "https://api-v2.yuafeng.cn/API/qqmusic.php?type=json&msg={kw}&apikey=3ff23523e47465224a3f48579acf41f241540ce04b6cc0b94164f37a5b6299d5",
+   "url_tpl": "https://api-v2.yuafeng.cn/API/qqmusic.php?type=320&mid={id}&apikey=3ff23523e47465224a3f48579acf41f241540ce04b6cc0b94164f37a5b6299d5",
+   "list_path": "data",
+   "id_field": "mid",
+   "title_field": "song",
+   "artist_field": "singer",
+   "url_path": "data.music",
+   "score": 74,
+   "quality": "标准",
+   "latency_s": 2.03,
+   "detail": {
+    "search": "ok",
+    "first": "晴天",
+    "bytes": 3283546,
+    "latency_s": 2.03,
+    "used": "晴天"
+   },
+   "evidence": [
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260322/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
+    "guoyue2010/lxmusic-:lxmusic--main/V2603/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js",
+    "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js"
+   ],
+   "enabled": true,
+   "checked_at": "2026-10-15T11:21:24+0800"
+  },
+  {
+   "name": "gdstudio",
+   "platform": "netease",
+   "pattern": "list_id_url",
+   "search_tpl": "https://music-api.gdstudio.xyz/api.php?types=search&source=netease&name={kw}&count=10&pages=1",
+   "url_tpl": "https://music-api.gdstudio.xyz/api.php?types=url&source=netease&id={id}&br=320",
+   "list_path": "",
+   "id_field": "id",
+   "title_field": "name",
+   "artist_field": "artist",
+   "url_path": "url",
+   "score": 72,
+   "quality": "320k",
+   "latency_s": 5.73,
+   "detail": {
+    "search": "ok",
+    "first": "晴天(深情版)",
+    "bytes": 11161644,
+    "latency_s": 5.73,
+    "used": "晴天(深情版)"
+   },
+   "evidence": [
+    "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js",
+    "LuoXiaohei-2025/LX-music-collection:LX-music-collection-main/Source of music/星海音乐源.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/星海音乐源 v2.2.8.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/统一音乐源.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js"
+   ],
+   "enabled": true,
+   "checked_at": "2026-10-15T11:21:24+0800"
   },
   {
    "name": "oiapi_kuwo",
@@ -180,7 +151,32 @@
     "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js"
    ],
    "enabled": false,
-   "checked_at": "2026-10-15T10:51:09+0800"
+   "checked_at": "2026-10-15T11:21:24+0800"
+  },
+  {
+   "name": "bugpk_163",
+   "platform": "netease",
+   "pattern": "list_id_url",
+   "search_tpl": "",
+   "url_tpl": "https://api.bugpk.com/api/163_music?type=json&ids={id}&level=exhigh",
+   "list_path": "",
+   "id_field": "",
+   "title_field": "",
+   "artist_field": "",
+   "url_path": "url",
+   "score": 20,
+   "quality": "",
+   "latency_s": null,
+   "detail": {},
+   "evidence": [
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260809/推荐/墨澜聚合音源 v2.0.0.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260810/推荐/墨澜聚合音源 v2.0.0.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260817/其他/星澜.js",
+    "guoyue2010/lxmusic-:lxmusic--main/V260810/推荐/墨澜聚合音源 v2.0.0.js",
+    "guoyue2010/lxmusic-:lxmusic--main/V260817/其他/星澜.js"
+   ],
+   "enabled": false,
+   "checked_at": "2026-10-15T11:21:24+0800"
   }
  ]
 }
