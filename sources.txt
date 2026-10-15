@@ -1,0 +1,7 @@
+# 音源实测榜 2026-10-15T10:51:09+0800(score>=60 启用)
+[ 87] ON  kuwo     haitangw_kw      320k  0.5s
+[ 75] ON  qq       yuafeng_qq       标准    1.89s
+[ 74] ON  netease  gdstudio         320k  2.75s
+[ 72] ON  netease  bugpk_163        320k  4.51s
+[ 72] ON  kuwo     nxinxz_kw        320k  6.86s
+[ 20] off kuwo     oiapi_kuwo             Nones
