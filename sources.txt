@@ -1,18 +1,16 @@
-# 音源实测榜 2026-10-17T00:49:29+0800(score>=60 启用)
-[ 68] ON  qq       yuafeng_qq       标准    3.3s
-[ 87] ON  kuwo     haitangw_kw      320k  0.51s
-[ 86] ON  kuwo     nxinxz_kw        320k  0.76s
+# 音源实测榜 2026-10-17T13:00:22+0800(score>=60 启用)
+[ 75] ON  qq       yuafeng_qq       标准    1.96s
+[ 86] ON  kuwo     nxinxz_kw        320k  0.7s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  gdstudio         320k  4.77s
-[ 72] ON  netease  bugpk_163        320k  5.58s
+[ 20] off kuwo     haitangw_kw            Nones
+[ 75] ON  netease  gdstudio         320k  2.56s
+[ 68] ON  netease  bugpk_163        标准    4.8s
+[ 50] off lxscript lx:juhe                Nones
 [ 50] off lxscript lx:K×H测试 v1.7.17       Nones
 [ 50] off lxscript lx:星海音乐源 v2.3.11       Nones
-[ 50] off lxscript lx:juhe                Nones
-[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
-[  0] off lxscript lx:lx-source-script       Nones
-[  0] off lxscript lx:index               Nones
-[  0] off lxscript lx:lx                  Nones
 [  0] off lxscript lx:Script              Nones
+[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -22,16 +20,18 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
-[  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:lx-source-script       Nones
+[  0] off lxscript lx:index               Nones
+[  0] off lxscript lx:lx                  Nones
 [  0] off lxscript lx:lx-custom-source       Nones
-[  0] off lxscript lx:杰翔音乐源               Nones
+[  0] off lxscript lx:LXMUSIC             Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
+[  0] off lxscript lx:杰翔音乐源               Nones
+[  0] off lxscript lx:【推荐】长青SVIP音源v1.2.0（全平台支持无损）       Nones
 [  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:HYWmusic_beta_公益测试 v0.74.0       Nones
 [  0] off lxscript lx:墨澜聚合音源 v2.2.0       Nones
-[  0] off lxscript lx:【推荐】长青SVIP音源v1.2.0（全平台支持无损）       Nones
 [  0] off lxscript lx:lx-music-source V3.0       Nones
-[  0] off lxscript lx:basic-source        Nones
