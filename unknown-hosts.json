@@ -193,20 +193,14 @@
   "http://api.ikunshare.com",
   "https://api.ikunshare.com"
  ],
- "api.music.lerd.dpdns.org": [
-  "https://api.music.lerd.dpdns.org",
-  "https://api.music.lerd.dpdns.org/",
-  "https://api.music.lerd.dpdns.org/kg",
-  "https://api.music.lerd.dpdns.org/kw",
-  "https://api.music.lerd.dpdns.org/mg",
-  "https://api.music.lerd.dpdns.org/tx",
-  "https://api.music.lerd.dpdns.org/wy"
+ "88.lxmusic.xn": [
+  "https://88.lxmusic.xn"
+ ],
+ "h5static.kuwo.cn": [
+  "https://h5static.kuwo.cn/www/kw-www/"
  ],
  "qm.qq.com": [
   "https://qm.qq.com/cgi-bin/qm/qr"
- ],
- "88.lxmusic.xn": [
-  "https://88.lxmusic.xn"
  ],
  "ut.y.qq.com": [
   "https://ut.y.qq.com/cgi-bin/musicu.fcg"
@@ -269,6 +263,15 @@
  "api.chksz.top": [
   "https://api.chksz.top/api",
   "https://api.chksz.top/api/163_music"
+ ],
+ "api.music.lerd.dpdns.org": [
+  "https://api.music.lerd.dpdns.org",
+  "https://api.music.lerd.dpdns.org/",
+  "https://api.music.lerd.dpdns.org/kg",
+  "https://api.music.lerd.dpdns.org/kw",
+  "https://api.music.lerd.dpdns.org/mg",
+  "https://api.music.lerd.dpdns.org/tx",
+  "https://api.music.lerd.dpdns.org/wy"
  ],
  "api.vsaa.cn": [
   "http://api.vsaa.cn/api/music.qishui.vip",
@@ -347,9 +350,6 @@
  "ynx.de5.net": [
   "http://ynx.de5.net/API/lx-ynx.php"
  ],
- "h5static.kuwo.cn": [
-  "https://h5static.kuwo.cn/www/kw-www/"
- ],
  "example.com": [
   "https://example.com/song.flac"
  ],
@@ -359,13 +359,13 @@
   "https://lx.8880588.xyz/music/qq",
   "https://lx.8880588.xyz/music/wy"
  ],
- "api.v2.sukimon.me:19742": [
-  "https://api.v2.sukimon.me:19742"
- ],
  "yinyue.haitangw.net": [
   "http://yinyue.haitangw.net/kg/kg_song_kw.php",
   "http://yinyue.haitangw.net/mg/migu.php",
   "http://yinyue.haitangw.net/qq/qq_kw.php"
+ ],
+ "api.v2.sukimon.me:19742": [
+  "https://api.v2.sukimon.me:19742"
  ],
  "api.ikunshare.top:8000": [
   "https://api.ikunshare.top:8000"
