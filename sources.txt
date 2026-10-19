@@ -1,13 +1,18 @@
-# 音源实测榜 2026-10-19T12:47:49+0800(score>=60 启用)
-[ 69] ON  qq       yuafeng_qq       标准    2.95s
-[ 78] ON  kuwo     haitangw_kw      320k  2.0s
-[ 78] ON  kuwo     nxinxz_kw        320k  2.14s
+# 音源实测榜 2026-10-20T00:22:52+0800(score>=60 启用)
+[ 68] ON  qq       yuafeng_qq       标准    3.49s
+[ 85] ON  kuwo     nxinxz_kw        320k  0.89s
+[ 79] ON  kuwo     haitangw_kw      320k  1.89s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 75] ON  netease  bugpk_163        320k  2.59s
-[  0] off netease  gdstudio               Nones
-[  0] off lxscript lx:Script              Nones
+[ 72] ON  netease  bugpk_163        320k  3.18s
+[ 72] ON  netease  gdstudio         320k  4.14s
+[ 50] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:lx-source-script       Nones
+[  0] off lxscript lx:index               Nones
+[  0] off lxscript lx:lx                  Nones
+[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -17,21 +22,16 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
-[  0] off lxscript lx:lx-source-script       Nones
-[  0] off lxscript lx:index               Nones
-[  0] off lxscript lx:lx                  Nones
+[  0] off lxscript lx:杰翔音乐源               Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
+[  0] off lxscript lx:我的会员音源              Nones
+[  0] off lxscript lx:【推荐】长青SVIP音源v1.2.0（全平台支持无损）       Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
 [  0] off lxscript lx:ikun音源（中国香港服务器）v1.0.1       Nones
 [  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:nya                 Nones
-[  0] off lxscript lx:sixyin1.2.1         Nones
-[  0] off lxscript lx:zhizun              Nones
-[  0] off lxscript lx:公众号音源2              Nones
-[  0] off lxscript lx:小熊猫v1.1.1           Nones
-[  0] off lxscript lx:废材公社 内部源            Nones
