@@ -1,16 +1,16 @@
-# 音源实测榜 2026-10-20T12:44:14+0800(score>=60 启用)
-[ 68] ON  qq       yuafeng_qq       标准    3.62s
-[ 87] ON  kuwo     haitangw_kw      320k  0.52s
-[ 86] ON  kuwo     nxinxz_kw        320k  0.82s
+# 音源实测榜 2026-10-21T00:27:01+0800(score>=60 启用)
+[ 68] ON  qq       yuafeng_qq       标准    16.92s
+[ 86] ON  kuwo     nxinxz_kw        320k  0.72s
+[ 72] ON  kuwo     haitangw_kw      320k  5.41s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  gdstudio         320k  4.15s
-[ 20] off netease  bugpk_163              Nones
+[ 72] ON  netease  bugpk_163        320k  4.06s
+[ 72] ON  netease  gdstudio         320k  4.5s
+[ 50] off lxscript lx:juhe                Nones
+[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
-[  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
-[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -20,6 +20,14 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
+[  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:lx-custom-source       Nones
+[  0] off lxscript lx:huibq               Nones
+[  0] off lxscript lx:ikun                Nones
+[  0] off lxscript lx:juhe                Nones
+[  0] off lxscript lx:sixyin              Nones
+[  0] off lxscript lx:杰翔音乐源               Nones
+[  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
@@ -27,11 +35,3 @@
 [  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:nya                 Nones
 [  0] off lxscript lx:sixyin1.2.1         Nones
-[  0] off lxscript lx:zhizun              Nones
-[  0] off lxscript lx:公众号音源2              Nones
-[  0] off lxscript lx:小熊猫v1.1.1           Nones
-[  0] off lxscript lx:废材公社 内部源            Nones
-[  0] off lxscript lx:梓澄公益音源二代v1.2.3.4.5       Nones
-[  0] off lxscript lx:聚合API V3(by lerd)       Nones
-[  0] off lxscript lx:聚合API接口(decrypt)       Nones
-[  0] off lxscript lx:聚合v3                Nones
