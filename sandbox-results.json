@@ -42,11 +42,6 @@
   "url": null,
   "error": "no url"
  },
- "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
-  "ok": false,
-  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
-  "requests": []
- },
  "Scotlight/lx-music-source-gateway:lx-music-source-gateway-main/src/karpov-lx-source.user.template.js": {
   "ok": false,
   "error": "load: __GDSTUDIO_CONFIG__ is not defined",
@@ -80,31 +75,10 @@
   "error": "load: Unexpected token 'export'",
   "requests": []
  },
- "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-custom-source.js": {
+ "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
   "ok": false,
-  "inited": {
-   "status": false,
-   "openDevTools": false,
-   "sources": {}
-  },
-  "sources": [],
-  "actions": [],
-  "requests": [
-   {
-    "method": "get",
-    "url": "http://127.0.0.1:1011/",
-    "headers": [
-     "User-Agent",
-     "Accept",
-     "X-LxM-Auth"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
+  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
+  "requests": []
  },
  "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/Huibq_lxmusic源.js": {
   "ok": false,
@@ -372,7 +346,7 @@
   "searchSource": null,
   "searchCount": 0,
   "urlSource": "kw",
-  "url": "http://kw-er.kuwo.cn/0385ccb532f1be247769fcf5e97f5dca/6ad643e8/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
+  "url": "http://kw-er.kuwo.cn/b8401a79e8d920bddaa9112d7aae03e1/6ad6f1a8/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
   "alive": {
    "alive": true,
    "status": 206,
@@ -778,739 +752,6 @@
   "urlSource": null,
   "url": null,
   "error": "no url"
- },
- "haonanren118/jiexiang-Music-Source:jiexiang-Music-Source-main/杰翔音乐源.js": {
-  "ok": false,
-  "inited": {
-   "status": true,
-   "openDevTools": false,
-   "sources": {
-    "tx": {
-     "name": "QQ音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac"
-     ]
-    },
-    "wy": {
-     "name": "网易云音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac"
-     ]
-    },
-    "kw": {
-     "name": "酷我音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "192k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    },
-    "kg": {
-     "name": "酷狗音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "hires",
-      "atmos",
-      "master"
-     ]
-    },
-    "mg": {
-     "name": "咪咕音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "tx",
-   "wy",
-   "kw",
-   "kg",
-   "mg"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "POST",
-    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg",
-    "headers": [
-     "Content-Type",
-     "User-Agent",
-     "Referer"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://yy.zddyr.top/lx/api/?source=qq&songmid=001Bbywq2gicae&quality=320k",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://zrcdy.dpdns.org/lx/api/api.php?source=qq&songmid=001Bbywq2gicae&quality=320k",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://oiapi.net/api/QQ_Music?key=oiapi-ef6133b7-ac2f-dc7d-878c-d3e207a82575&type=json&br=5&n=1&mid=001Bbywq2gicae",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://api.xcvts.cn/api/music/qq?apiKey=78993344b9bf1105655599009cdba3d2&mid=001Bbywq2gicae&type=exhigh",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://api.vkeys.cn/v2/music/tencent/geturl?mid=001Bbywq2gicae&quality=9",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://api.vkeys.cn/music/tencent/song/link?mid=001Bbywq2gicae&quality=9",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://github.com/CharlesPikachu/musicdl/releases/download/keys/baimusic.txt",
-    "headers": []
-   },
-   {
-    "method": "GET",
-    "url": "https://api.xcvts.cn/api/music/qq?apiKey=ce778eb0d1858edfb4b2071a115f1edf&mid=001Bbywq2gicae&type=exhigh",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": "tx",
-  "url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=B9DB289B4F7773834D64FFCEB0AFAB77883FB3C14C76CDEFA26ACEE8A6D3917CCA7151ADC3C226CB6A72D3C0C636FD4E69B8C9A5B677382D__v2b9ab9c3&uin=1152921505349757380&fromtag=0&trace=401b09f0a0f33de4",
-  "alive": {
-   "alive": true,
-   "status": 206,
-   "bytes": 960887
-  },
-  "error": "疑似试听(文件过小:960887B)"
- },
- "fengyvle/yyt-music-sources:yyt-music-sources-main/huibq.js": {
-  "ok": false,
-  "inited": {
-   "status": true,
-   "openDevTools": false,
-   "sources": {
-    "kw": {
-     "name": "kw",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k"
-     ]
-    },
-    "kg": {
-     "name": "kg",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k"
-     ]
-    },
-    "tx": {
-     "name": "tx",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k"
-     ]
-    },
-    "wy": {
-     "name": "wy",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k"
-     ]
-    },
-    "mg": {
-     "name": "mg",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "kw",
-   "kg",
-   "tx",
-   "wy",
-   "mg"
-  ],
-  "actions": [],
-  "requests": [],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "fengyvle/yyt-music-sources:yyt-music-sources-main/ikun.js": {
-  "ok": false,
-  "inited": {
-   "status": true,
-   "openDevTools": false,
-   "sources": {
-    "kw": {
-     "name": "kw",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit",
-      "hires"
-     ]
-    },
-    "wy": {
-     "name": "wy",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit",
-      "hires",
-      "atmos",
-      "master"
-     ]
-    },
-    "git": {
-     "name": "git",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "kw",
-   "wy",
-   "git"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "https://api.ikunshare.com/script/lxmusic?key=&checkUpdate=74a88a1d1ae53cf3cb2889e70aed3d6e",
-    "headers": [
-     "Content-Type",
-     "User-Agent"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "fengyvle/yyt-music-sources:yyt-music-sources-main/juhe.js": {
-  "ok": false,
-  "inited": null,
-  "sources": [
-   "kw",
-   "wy",
-   "tx",
-   "kg",
-   "mg"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "https://api.music.lerd.dpdns.org/init.conf",
-    "headers": []
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/mg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/mg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/mg",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/mg",
-    "headers": [
-     "Content-Type"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "fengyvle/yyt-music-sources:yyt-music-sources-main/sixyin.js": {
-  "ok": false,
-  "error": "load: 当前客户端不支持，请更新至最新版本！",
-  "requests": []
- },
- "hejuworld-droid/lx-music-source:lx-music-source-main/juhe/juhe.js": {
-  "ok": true,
-  "inited": {
-   "openDevTools": false,
-   "sources": {
-    "wy": {
-     "name": "网易云音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "24bit",
-      "flac",
-      "320k",
-      "192k",
-      "128k"
-     ]
-    },
-    "tx": {
-     "name": "QQ音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "24bit",
-      "flac",
-      "320k",
-      "192k",
-      "128k"
-     ]
-    },
-    "kw": {
-     "name": "酷我音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "24bit",
-      "flac",
-      "320k",
-      "192k",
-      "128k"
-     ]
-    },
-    "kg": {
-     "name": "酷狗音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "24bit",
-      "flac",
-      "320k",
-      "192k",
-      "128k"
-     ]
-    },
-    "mg": {
-     "name": "咪咕音乐",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "24bit",
-      "flac",
-      "320k",
-      "192k",
-      "128k"
-     ]
-    },
-    "qsvip": {
-     "name": "汽水VIP",
-     "type": "music",
-     "actions": [
-      "musicSearch",
-      "musicUrl",
-      "lyric"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "wy",
-   "tx",
-   "kw",
-   "kg",
-   "mg",
-   "qsvip"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "https://music-api.gdstudio.xyz/api.php?use_xbridge3=true&loader_name=forest&need_sec_link=1&sec_link_scene=im&theme=light&types=url&source=netease&id=2652820720&br=320",
-    "headers": [
-     "User-Agent",
-     "Accept"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://api.huibq.com/api/url/wy/2652820720/320k",
-    "headers": [
-     "Content-Type",
-     "User-Agent",
-     "X-Request-Key"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "https://oiapi.net/api/Music_163?id=2652820720",
-    "headers": []
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": "wy",
-  "url": "http://m701.music.126.net/20261020004833/766d2eacc7fbf2cee04c9f1fd4b8698a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869966078/2350/1ee3/a3e5/a250ee753a91f455f02628d8a4b5b845.mp3?vuutv=WqoQD06OEOIWNv5YbRoo827wm1ZF7d5TFTsm90lPzqn7tGgHj139ZG03JHp8DCHBsIDwkJcnmppEbIUhx+B/jFX1+v8pZAWLPBnWXPEAGiI=",
-  "alive": {
-   "alive": true,
-   "status": 206,
-   "bytes": 4464684
-  }
- },
- "hllsg/lx-music-myvip:lx-music-myvip-main/我的会员音源.js": {
-  "ok": false,
-  "inited": {
-   "status": true,
-   "openDevTools": false,
-   "sources": {
-    "wy": {
-     "name": "网易云(我的会员)",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    },
-    "tx": {
-     "name": "QQ音乐(我的会员)",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "wy",
-   "tx"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=exhigh",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=standard",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=lossless",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=exhigh",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=standard",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=lossless",
-    "headers": [
-     "User-Agent"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "lczj1215/lx-music:lx-music-main/【推荐】长青SVIP音源v1.2.0（全平台支持无损）.js": {
-  "ok": false,
-  "inited": null,
-  "sources": [
-   "kw",
-   "wy",
-   "tx",
-   "kg",
-   "mg"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "https://13413.kstore.vip/lxmusic/changqing.json",
-    "headers": []
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": "kw",
-  "url": "https://musicapi.haitangw.net/music1/kw.php?type=mp3&id=228908&level=exhigh",
-  "alive": {
-   "alive": false,
-   "status": 404,
-   "bytes": 146
-  }
  },
  "a97083435/lxmusic-source:lxmusic-source-main/MusicDownloader.js": {
   "ok": false,
@@ -1966,6 +1207,768 @@
   ],
   "actions": [],
   "requests": [],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/sixyin1.2.1.js": {
+  "ok": false,
+  "error": "load: 当前客户端不支持，请更新至最新版本！",
+  "requests": []
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/zhizun.js": {
+  "ok": false,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "kw": {
+     "name": "kw",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "kg": {
+     "name": "kg",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "tx": {
+     "name": "tx",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "wy": {
+     "name": "wy",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "mg": {
+     "name": "mg",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "local": {
+     "name": "local",
+     "type": "music",
+     "actions": [
+      "musicUrl",
+      "pic",
+      "lyric"
+     ],
+     "qualitys": []
+    }
+   }
+  },
+  "sources": [
+   "kw",
+   "kg",
+   "tx",
+   "wy",
+   "mg",
+   "local"
+  ],
+  "actions": [],
+  "requests": [],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/公众号音源2.js": {
+  "ok": false,
+  "error": "load: Script execution timed out after 15000ms",
+  "requests": []
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/小熊猫v1.1.1.js": {
+  "ok": false,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "kw": {
+     "name": "酷我音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k"
+     ]
+    },
+    "kg": {
+     "name": "酷狗音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "tx": {
+     "name": "企鹅音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "wy": {
+     "name": "网易音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "mg": {
+     "name": "咪咕音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    }
+   }
+  },
+  "sources": [
+   "kw",
+   "kg",
+   "tx",
+   "wy",
+   "mg"
+  ],
+  "actions": [],
+  "requests": [
+   {
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/lyswhut/lx-music-source/master/package.json",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/",
+    "headers": [
+     "User-Agent",
+     "Referer"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=320kmp3",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=128kmp3",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=undefined",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"M800undefined.mp3\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"format",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"M500undefined.mp3\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"format",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"F000undefined.flac\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"forma",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=HQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/lyswhut/lx-music-source/master/package.json",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=PQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=SQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   }
+  ],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/废材公社 内部源.js": {
+  "ok": false,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "kw": {
+     "name": "酷我音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k"
+     ]
+    },
+    "kg": {
+     "name": "酷狗音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "tx": {
+     "name": "企鹅音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "wy": {
+     "name": "网易音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "mg": {
+     "name": "咪咕音乐",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    }
+   }
+  },
+  "sources": [
+   "kw",
+   "kg",
+   "tx",
+   "wy",
+   "mg"
+  ],
+  "actions": [],
+  "requests": [
+   {
+    "method": "GET",
+    "url": "https://api.leobba.cn/lxmusic/lx-music-source/package.json",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/",
+    "headers": [
+     "User-Agent",
+     "Referer"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://h5s.kuwo.cn/www/kw-www/dcc6cd7.js",
+    "headers": [
+     "User-Agent",
+     "Referer"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=320kmp3",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=128kmp3",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://www.kuwo.cn/api/v1/www/music/playUrl?mid=228908&type=music&br=undefined",
+    "headers": [
+     "User-Agent",
+     "Referer",
+     "Secret",
+     "cookie"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://wwwapi.kugou.com/yy/index.php?r=play/getdata&hash=9F2F5D02B0E0C70C06E5F0E5E1BDB5B9&platid=4&album_id=undefined&mid=00000000000000000000000000000000",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"M800undefined.mp3\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"format",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"M500undefined.mp3\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"format",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&data={\"req_0\":{\"module\":\"vkey.GetVkeyServer\",\"method\":\"CgiGetVkey\",\"param\":{\"filename\":[\"F000undefined.flac\"],\"guid\":\"10000\",\"songmid\":[\"001Bbywq2gicae\"],\"songtype\":[0],\"uin\":\"0\",\"loginflag\":1,\"platform\":\"20\"}},\"loginUin\":\"0\",\"comm\":{\"uin\":\"0\",\"forma",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=HQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=PQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "https://app.c.nf.migu.cn/MIGUM2.0/strategy/listen-url/v2.2?netType=01&resourceType=E&songId=undefined&toneFlag=SQ",
+    "headers": [
+     "channel",
+     "uid"
+    ]
+   }
+  ],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/梓澄公益音源二代v1.2.3.4.5.js": {
+  "ok": false,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "kw": {
+     "name": "kw",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac"
+     ]
+    },
+    "kg": {
+     "name": "kg",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "tx": {
+     "name": "tx",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "wy": {
+     "name": "wy",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    },
+    "mg": {
+     "name": "mg",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k"
+     ]
+    }
+   }
+  },
+  "sources": [
+   "kw",
+   "kg",
+   "tx",
+   "wy",
+   "mg"
+  ],
+  "actions": [],
+  "requests": [],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/聚合API V3(by lerd).js": {
+  "ok": false,
+  "inited": null,
+  "sources": [
+   "kw",
+   "wy",
+   "tx",
+   "kg",
+   "mg"
+  ],
+  "actions": [],
+  "requests": [
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/init/v3",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/flac",
+    "headers": []
+   }
+  ],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/聚合API接口(decrypt).js": {
+  "ok": false,
+  "error": "load: 初始化失败！请检查音源信息",
+  "requests": []
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/聚合v3.js": {
+  "ok": false,
+  "inited": null,
+  "sources": [
+   "kw",
+   "wy",
+   "tx",
+   "kg",
+   "mg"
+  ],
+  "actions": [],
+  "requests": [
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/init/v3",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kw/228908/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/wy/2652820720/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/tx/001Bbywq2gicae/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/kg/9F2F5D02B0E0C70C06E5F0E5E1BDB5B9/flac",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/320k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/128k",
+    "headers": []
+   },
+   {
+    "method": "GET",
+    "url": "https://lerd.sukimon.me/mg/undefined/flac",
+    "headers": []
+   }
+  ],
   "searchSource": null,
   "searchCount": 0,
   "urlSource": null,
