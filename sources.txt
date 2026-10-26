@@ -1,12 +1,14 @@
-# 音源实测榜 2026-10-26T12:55:22+0800(score>=60 启用)
-[ 75] ON  qq       yuafeng_qq       标准    1.93s
-[ 87] ON  kuwo     haitangw_kw      320k  0.56s
-[ 82] ON  kuwo     nxinxz_kw        320k  1.49s
+# 音源实测榜 2026-10-27T00:50:55+0800(score>=60 启用)
+[ 76] ON  qq       yuafeng_qq       标准    1.7s
+[ 86] ON  kuwo     haitangw_kw      320k  0.71s
+[ 86] ON  kuwo     nxinxz_kw        320k  0.72s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 75] ON  netease  gdstudio         320k  2.58s
-[ 68] ON  netease  bugpk_163        标准    4.4s
-[  0] off lxscript lx:Script              Nones
+[ 76] ON  netease  gdstudio         320k  2.38s
+[ 72] ON  netease  bugpk_163        320k  5.2s
+[ 50] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[  0] off lxscript lx:Script              Nones
+[  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -16,16 +18,16 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
-[  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
-[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
 [  0] off lxscript lx:杰翔音乐源               Nones
+[  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
@@ -33,5 +35,3 @@
 [  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:nya                 Nones
 [  0] off lxscript lx:sixyin1.2.1         Nones
-[  0] off lxscript lx:zhizun              Nones
-[  0] off lxscript lx:公众号音源2              Nones
