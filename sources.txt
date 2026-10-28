@@ -1,12 +1,12 @@
-# 音源实测榜 2026-10-28T00:37:58+0800(score>=60 启用)
-[ 72] ON  qq       yuafeng_qq       标准    2.48s
-[ 87] ON  kuwo     haitangw_kw      320k  0.58s
+# 音源实测榜 2026-10-28T12:31:15+0800(score>=60 启用)
+[ 68] ON  qq       yuafeng_qq       标准    9.82s
+[ 87] ON  kuwo     haitangw_kw      320k  0.66s
 [ 86] ON  kuwo     nxinxz_kw        320k  0.78s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  gdstudio         320k  3.59s
-[ 72] ON  netease  bugpk_163        320k  9.22s
+[ 72] ON  netease  gdstudio         320k  3.01s
+[ 68] ON  netease  bugpk_163        标准    10.31s
 [  0] off lxscript lx:Script              Nones
-[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -16,7 +16,7 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
-[  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
@@ -25,7 +25,6 @@
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
-[  0] off lxscript lx:杰翔音乐源               Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
@@ -35,3 +34,4 @@
 [  0] off lxscript lx:sixyin1.2.1         Nones
 [  0] off lxscript lx:zhizun              Nones
 [  0] off lxscript lx:公众号音源2              Nones
+[  0] off lxscript lx:小熊猫v1.1.1           Nones
