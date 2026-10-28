@@ -20,9 +20,6 @@
   "https://interface.music.163.com/weapi/song/lyric",
   "https://interface.music.163.com/weapi/v1/album/"
  ],
- "13413.kstore.vip": [
-  "https://13413.kstore.vip/lxmusic/changqing.json"
- ],
  "github.com": [
   "https://github.com/CharlesPikachu/musicdl/releases/download/keys/baimusic.txt",
   "https://github.com/ELDment/Meting-Agent",
@@ -133,6 +130,9 @@
   "http://u.y.qq.com/cgi-bin/musicu.fcg",
   "https://u.y.qq.com/cgi-bin/musicu.fcg"
  ],
+ "13413.kstore.vip": [
+  "https://13413.kstore.vip/lxmusic/changqing.json"
+ ],
  "lxmusic.ikunshare.com:9763": [
   "https://lxmusic.ikunshare.com:9763"
  ],
@@ -202,14 +202,11 @@
   "https://api.music.lerd.dpdns.org/tx",
   "https://api.music.lerd.dpdns.org/wy"
  ],
- "88.lxmusic.xn": [
-  "https://88.lxmusic.xn"
- ],
- "h5static.kuwo.cn": [
-  "https://h5static.kuwo.cn/www/kw-www/"
- ],
  "qm.qq.com": [
   "https://qm.qq.com/cgi-bin/qm/qr"
+ ],
+ "88.lxmusic.xn": [
+  "https://88.lxmusic.xn"
  ],
  "ut.y.qq.com": [
   "https://ut.y.qq.com/cgi-bin/musicu.fcg"
@@ -324,6 +321,9 @@
   "https://api.lingchuan.com",
   "https://api.lingchuan.com/v1"
  ],
+ "h5static.kuwo.cn": [
+  "https://h5static.kuwo.cn/www/kw-www/"
+ ],
  "api.open-meteo.com": [
   "https://api.open-meteo.com/v1/forecast"
  ],
@@ -371,14 +371,14 @@
   "https://img1.kwcdn.kuwo.cn",
   "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
- "api.v2.sukimon.me:19742": [
-  "https://api.v2.sukimon.me:19742"
- ],
  "api.ikunshare.top:8000": [
   "https://api.ikunshare.top:8000"
  ],
  "m-api.ceseet.me": [
   "https://m-api.ceseet.me"
+ ],
+ "api.v2.sukimon.me:19742": [
+  "https://api.v2.sukimon.me:19742"
  ],
  "songsearch.kugou.com": [
   "https://songsearch.kugou.com/song_search_v2"
@@ -500,9 +500,6 @@
  "ffapi.cn": [
   "https://ffapi.cn/int/v2/songurl"
  ],
- "music.ikun0014.top": [
-  "https://music.ikun0014.top"
- ],
  "www.s0o1.com": [
   "https://www.s0o1.com/API/wyy_music"
  ],
@@ -520,5 +517,8 @@
  ],
  "qqdecv6.942240.xyz:11451": [
   "http://qqdecv6.942240.xyz:11451"
+ ],
+ "music.ikun0014.top": [
+  "https://music.ikun0014.top"
  ]
 }
