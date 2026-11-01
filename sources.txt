@@ -1,13 +1,13 @@
-# 音源实测榜 2026-11-01T12:40:45+0800(score>=60 启用)
-[ 75] ON  qq       yuafeng_qq       标准    1.89s
-[ 88] ON  kuwo     haitangw_kw      320k  0.4s
-[ 86] ON  kuwo     nxinxz_kw        320k  0.72s
+# 音源实测榜 2026-11-02T00:45:04+0800(score>=60 启用)
+[ 72] ON  qq       yuafeng_qq       标准    2.47s
+[ 88] ON  kuwo     haitangw_kw      320k  0.42s
+[ 85] ON  kuwo     nxinxz_kw        320k  0.99s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  bugpk_163        标准    2.5s
-[ 68] ON  netease  gdstudio         标准    3.94s
+[ 72] ON  netease  bugpk_163        320k  3.18s
+[ 71] ON  netease  gdstudio         标准    2.52s
 [ 50] off lxscript lx:juhe                Nones
-[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
 [  0] off lxscript lx:Script              Nones
+[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
 [  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
@@ -18,20 +18,20 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
+[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
-[  0] off lxscript lx:lx-custom-source       Nones
+[  0] off lxscript lx:杰翔音乐源               Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
-[  0] off lxscript lx:杰翔音乐源               Nones
 [  0] off lxscript lx:我的会员音源              Nones
-[  0] off lxscript lx:LXMUSIC             Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
 [  0] off lxscript lx:ikun音源（中国香港服务器）v1.0.1       Nones
 [  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:nya                 Nones
+[  0] off lxscript lx:sixyin1.2.1         Nones
