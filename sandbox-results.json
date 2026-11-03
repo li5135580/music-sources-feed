@@ -1,4 +1,9 @@
 {
+ "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
+  "ok": false,
+  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
+  "requests": []
+ },
  "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js": {
   "ok": false,
   "inited": {
@@ -41,11 +46,6 @@
   "urlSource": null,
   "url": null,
   "error": "no url"
- },
- "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
-  "ok": false,
-  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
-  "requests": []
  },
  "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/Huibq_lxmusic源.js": {
   "ok": false,
@@ -313,7 +313,7 @@
   "searchSource": null,
   "searchCount": 0,
   "urlSource": "kw",
-  "url": "http://kw-er.kuwo.cn/07a18f7774288be99b33f92d08024937/6ae8c311/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
+  "url": "http://kw-er.kuwo.cn/32af9b31b0fa44320c0e6e66ab27a0cd/6ae96865/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
   "alive": {
    "alive": true,
    "status": 206,
@@ -1093,13 +1093,84 @@
  },
  "fengyvle/yyt-music-sources:yyt-music-sources-main/juhe.js": {
   "ok": false,
-  "inited": null,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "kg": {
+     "actions": [
+      "musicUrl"
+     ],
+     "name": "kg",
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ],
+     "type": "music"
+    },
+    "kw": {
+     "actions": [
+      "musicUrl"
+     ],
+     "name": "kw",
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ],
+     "type": "music"
+    },
+    "mg": {
+     "actions": [
+      "musicUrl"
+     ],
+     "name": "mg",
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ],
+     "type": "music"
+    },
+    "tx": {
+     "actions": [
+      "musicUrl"
+     ],
+     "name": "tx",
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ],
+     "type": "music"
+    },
+    "wy": {
+     "actions": [
+      "musicUrl"
+     ],
+     "name": "wy",
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit",
+      "master"
+     ],
+     "type": "music"
+    }
+   }
+  },
   "sources": [
-   "kw",
-   "wy",
-   "tx",
    "kg",
-   "mg"
+   "kw",
+   "mg",
+   "tx",
+   "wy"
   ],
   "actions": [],
   "requests": [
@@ -1110,28 +1181,14 @@
    },
    {
     "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
     "url": "https://api.music.lerd.dpdns.org/kg",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/kw",
     "headers": [
      "Content-Type"
     ]
@@ -1145,48 +1202,6 @@
    },
    {
     "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/kw",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/wy",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
     "url": "https://api.music.lerd.dpdns.org/tx",
     "headers": [
      "Content-Type"
@@ -1194,14 +1209,7 @@
    },
    {
     "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
-    "headers": [
-     "Content-Type"
-    ]
-   },
-   {
-    "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/tx",
+    "url": "https://api.music.lerd.dpdns.org/wy",
     "headers": [
      "Content-Type"
     ]
@@ -1229,7 +1237,21 @@
    },
    {
     "method": "POST",
-    "url": "https://api.music.lerd.dpdns.org/mg",
+    "url": "https://api.music.lerd.dpdns.org/kw",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/kw",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/kw",
     "headers": [
      "Content-Type"
     ]
@@ -1244,6 +1266,55 @@
    {
     "method": "POST",
     "url": "https://api.music.lerd.dpdns.org/mg",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/mg",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/tx",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/tx",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/tx",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/wy",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/wy",
+    "headers": [
+     "Content-Type"
+    ]
+   },
+   {
+    "method": "POST",
+    "url": "https://api.music.lerd.dpdns.org/wy",
     "headers": [
      "Content-Type"
     ]
@@ -1635,8 +1706,7 @@
  },
  "a97083435/lxmusic-source:lxmusic-source-main/lx-music-source V3.0.js": {
   "ok": false,
-  "error": "load: Script execution timed out after 15000ms",
-  "requests": []
+  "error": "沙箱超时"
  },
  "a97083435/lxmusic-source:lxmusic-source-main/nya.js": {
   "ok": false,
