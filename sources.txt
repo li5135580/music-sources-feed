@@ -1,12 +1,12 @@
-# 音源实测榜 2026-11-03T01:06:17+0800(score>=60 启用)
-[ 68] ON  qq       yuafeng_qq       标准    4.36s
-[ 88] ON  kuwo     haitangw_kw      320k  0.41s
-[ 86] ON  kuwo     nxinxz_kw        320k  0.74s
+# 音源实测榜 2026-11-03T12:51:41+0800(score>=60 启用)
+[ 73] ON  qq       yuafeng_qq       标准    2.27s
+[ 85] ON  kuwo     nxinxz_kw        320k  0.94s
+[ 77] ON  kuwo     haitangw_kw      320k  2.2s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 77] ON  netease  bugpk_163        320k  2.28s
-[ 68] ON  netease  gdstudio         标准    3.47s
-[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[ 72] ON  netease  gdstudio         标准    2.47s
+[ 68] ON  netease  bugpk_163        标准    5.56s
 [  0] off lxscript lx:Script              Nones
+[  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
