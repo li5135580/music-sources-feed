@@ -1,9 +1,4 @@
 {
- "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
-  "ok": false,
-  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
-  "requests": []
- },
  "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js": {
   "ok": false,
   "inited": {
@@ -47,38 +42,17 @@
   "url": null,
   "error": "no url"
  },
+ "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js": {
+  "ok": false,
+  "error": "load: [WY:ENV] 本脚本需要 LX Music 桌面版的自定义源环境",
+  "requests": []
+ },
  "Scotlight/lx-music-source-gateway:lx-music-source-gateway-main/src/karpov-lx-source.user.template.js": {
   "ok": false,
   "error": "load: __GDSTUDIO_CONFIG__ is not defined",
   "requests": []
  },
- "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-custom-source.js": {
-  "ok": false,
-  "inited": {
-   "status": false,
-   "openDevTools": false,
-   "sources": {}
-  },
-  "sources": [],
-  "actions": [],
-  "requests": [
-   {
-    "method": "get",
-    "url": "http://127.0.0.1:1011/",
-    "headers": [
-     "User-Agent",
-     "Accept",
-     "X-LxM-Auth"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-source-script.js": {
+ "ZxwyWebSite/lx-script:lx-script-main/dist/lx-source-script.js": {
   "ok": false,
   "inited": null,
   "sources": [
@@ -372,7 +346,7 @@
   "searchSource": null,
   "searchCount": 0,
   "urlSource": "kw",
-  "url": "http://kw-er.kuwo.cn/32b36029b69b146ed3d8d01347ccf228/6aeac1e5/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
+  "url": "http://kw-er.kuwo.cn/275c3692d02aae684759ce25ec6fb606/6aeb62da/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
   "alive": {
    "alive": true,
    "status": 206,
@@ -779,6 +753,32 @@
   "url": null,
   "error": "no url"
  },
+ "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-custom-source.js": {
+  "ok": false,
+  "inited": {
+   "status": false,
+   "openDevTools": false,
+   "sources": {}
+  },
+  "sources": [],
+  "actions": [],
+  "requests": [
+   {
+    "method": "get",
+    "url": "http://127.0.0.1:1011/",
+    "headers": [
+     "User-Agent",
+     "Accept",
+     "X-LxM-Auth"
+    ]
+   }
+  ],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
  "haonanren118/jiexiang-Music-Source:jiexiang-Music-Source-main/杰翔音乐源.js": {
   "ok": false,
   "inited": {
@@ -928,21 +928,12 @@
      "User-Agent",
      "Accept"
     ]
-   },
-   {
-    "method": "GET",
-    "url": "https://api.liuyunidc.cn/baimusic/musicurl.php?source=tx&musicId=001Bbywq2gicae&quality=320k&card=Not%20Found",
-    "headers": [
-     "User-Agent",
-     "Accept",
-     "Referer"
-    ]
    }
   ],
   "searchSource": null,
   "searchCount": 0,
   "urlSource": "tx",
-  "url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=6AF3F26F5A2C0865A2063FF62AF75732B1C9A8DF9310FD22BCB070F50103740964D92B0457B323634E161B61184A3E254BCA82F9EF5183FC__v2b9ab771&uin=1152921505349757380&fromtag=0&trace=05cc2e987d0b580a",
+  "url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=B620C2FF68F564D202B69EA87A726FF78C2821D46DBE592F25BF2C3B7ECA99122300293D6046A587B7052AB862C685034A68CDB6D44E9584__v2b9ab6c8&uin=1152921505349757380&fromtag=0&trace=2b65c2666ed3f6f5",
   "alive": {
    "alive": true,
    "status": 206,
@@ -1269,6 +1260,95 @@
   "error": "load: 当前客户端不支持，请更新至最新版本！",
   "requests": []
  },
+ "hllsg/lx-music-myvip:lx-music-myvip-main/我的会员音源.js": {
+  "ok": false,
+  "inited": {
+   "status": true,
+   "openDevTools": false,
+   "sources": {
+    "wy": {
+     "name": "网易云(我的会员)",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    },
+    "tx": {
+     "name": "QQ音乐(我的会员)",
+     "type": "music",
+     "actions": [
+      "musicUrl"
+     ],
+     "qualitys": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+     ]
+    }
+   }
+  },
+  "sources": [
+   "wy",
+   "tx"
+  ],
+  "actions": [],
+  "requests": [
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=exhigh",
+    "headers": [
+     "User-Agent"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=standard",
+    "headers": [
+     "User-Agent"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=lossless",
+    "headers": [
+     "User-Agent"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=exhigh",
+    "headers": [
+     "User-Agent"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=standard",
+    "headers": [
+     "User-Agent"
+    ]
+   },
+   {
+    "method": "GET",
+    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=lossless",
+    "headers": [
+     "User-Agent"
+    ]
+   }
+  ],
+  "searchSource": null,
+  "searchCount": 0,
+  "urlSource": null,
+  "url": null,
+  "error": "no url"
+ },
  "hejuworld-droid/lx-music-source:lx-music-source-main/juhe/juhe.js": {
   "ok": true,
   "inited": {
@@ -1397,128 +1477,11 @@
   "searchSource": null,
   "searchCount": 0,
   "urlSource": "wy",
-  "url": "https://m701.music.126.net/20261104135146/8acffe037c84225e9c582fa658460c77/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869964448/ced9/90ef/3446/be7eff5b04000465e8b62d861046d83a.mp3",
+  "url": "https://m701.music.126.net/20261105011819/f9139e1bc83d7a917e5898d10dca0e6b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869964448/ced9/90ef/3446/be7eff5b04000465e8b62d861046d83a.mp3",
   "alive": {
    "alive": true,
    "status": 206,
    "bytes": 11161644
-  }
- },
- "hllsg/lx-music-myvip:lx-music-myvip-main/我的会员音源.js": {
-  "ok": false,
-  "inited": {
-   "status": true,
-   "openDevTools": false,
-   "sources": {
-    "wy": {
-     "name": "网易云(我的会员)",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    },
-    "tx": {
-     "name": "QQ音乐(我的会员)",
-     "type": "music",
-     "actions": [
-      "musicUrl"
-     ],
-     "qualitys": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-     ]
-    }
-   }
-  },
-  "sources": [
-   "wy",
-   "tx"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=exhigh",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=standard",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/song/url?id=2652820720&quality=lossless",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=exhigh",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=standard",
-    "headers": [
-     "User-Agent"
-    ]
-   },
-   {
-    "method": "GET",
-    "url": "http://127.0.0.1:3000/api/qq/song/url?mid=001Bbywq2gicae&quality=lossless",
-    "headers": [
-     "User-Agent"
-    ]
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": null,
-  "url": null,
-  "error": "no url"
- },
- "lczj1215/lx-music:lx-music-main/【推荐】长青SVIP音源v1.2.0（全平台支持无损）.js": {
-  "ok": false,
-  "inited": null,
-  "sources": [
-   "kw",
-   "wy",
-   "tx",
-   "kg",
-   "mg"
-  ],
-  "actions": [],
-  "requests": [
-   {
-    "method": "GET",
-    "url": "https://13413.kstore.vip/lxmusic/changqing.json",
-    "headers": []
-   }
-  ],
-  "searchSource": null,
-  "searchCount": 0,
-  "urlSource": "kw",
-  "url": "https://musicapi.haitangw.net/music1/kw.php?type=mp3&id=228908&level=exhigh",
-  "alive": {
-   "alive": false,
-   "status": 404,
-   "bytes": 146
   }
  },
  "a97083435/lxmusic-source:lxmusic-source-main/MusicDownloader.js": {
@@ -1980,5 +1943,10 @@
   "urlSource": null,
   "url": null,
   "error": "no url"
+ },
+ "a97083435/lxmusic-source:lxmusic-source-main/sixyin1.2.1.js": {
+  "ok": false,
+  "error": "load: 当前客户端不支持，请更新至最新版本！",
+  "requests": []
  }
 }
