@@ -310,17 +310,6 @@
   "http://api.ikunshare.com",
   "https://api.ikunshare.com"
  ],
- "music-dl.sayqz.com": [
-  "https://music-dl.sayqz.com/api/"
- ],
- "api.huibq.com": [
-  "https://api.huibq.com",
-  "https://api.huibq.com/api"
- ],
- "api.lingchuan.com": [
-  "https://api.lingchuan.com",
-  "https://api.lingchuan.com/v1"
- ],
  "api.open-meteo.com": [
   "https://api.open-meteo.com/v1/forecast"
  ],
@@ -339,6 +328,17 @@
  ],
  "ws.stream.qqmusic.qq.com": [
   "https://ws.stream.qqmusic.qq.com/"
+ ],
+ "music-dl.sayqz.com": [
+  "https://music-dl.sayqz.com/api/"
+ ],
+ "api.huibq.com": [
+  "https://api.huibq.com",
+  "https://api.huibq.com/api"
+ ],
+ "api.lingchuan.com": [
+  "https://api.lingchuan.com",
+  "https://api.lingchuan.com/v1"
  ],
  "h5static.kuwo.cn": [
   "https://h5static.kuwo.cn/www/kw-www/"
@@ -365,8 +365,10 @@
  "api.ikunshare.top:8000": [
   "https://api.ikunshare.top:8000"
  ],
- "m-api.ceseet.me": [
-  "https://m-api.ceseet.me"
+ "yinyue.haitangw.net": [
+  "http://yinyue.haitangw.net/kg/kg_song_kw.php",
+  "http://yinyue.haitangw.net/mg/migu.php",
+  "http://yinyue.haitangw.net/qq/qq_kw.php"
  ],
  "a.aa.cab": [
   "https://a.aa.cab/qq.music"
@@ -378,13 +380,11 @@
   "https://img1.kwcdn.kuwo.cn",
   "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
+ "m-api.ceseet.me": [
+  "https://m-api.ceseet.me"
+ ],
  "animemusic.bzxhkj.com": [
   "https://animemusic.bzxhkj.com/v1/index.php"
- ],
- "yinyue.haitangw.net": [
-  "http://yinyue.haitangw.net/kg/kg_song_kw.php",
-  "http://yinyue.haitangw.net/mg/migu.php",
-  "http://yinyue.haitangw.net/qq/qq_kw.php"
  ],
  "songsearch.kugou.com": [
   "https://songsearch.kugou.com/song_search_v2"
@@ -503,9 +503,6 @@
  "ffapi.cn": [
   "https://ffapi.cn/int/v2/songurl"
  ],
- "music.ikun0014.top": [
-  "https://music.ikun0014.top"
- ],
  "www.s0o1.com": [
   "https://www.s0o1.com/API/wyy_music"
  ],
@@ -523,5 +520,8 @@
  ],
  "qqdecv6.942240.xyz:11451": [
   "http://qqdecv6.942240.xyz:11451"
+ ],
+ "music.ikun0014.top": [
+  "https://music.ikun0014.top"
  ]
 }
