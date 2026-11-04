@@ -1,15 +1,14 @@
-# 音源实测榜 2026-11-04T13:25:45+0800(score>=60 启用)
-[ 68] ON  qq       yuafeng_qq       标准    3.95s
-[ 88] ON  kuwo     haitangw_kw      320k  0.5s
-[ 84] ON  kuwo     nxinxz_kw        320k  1.03s
+# 音源实测榜 2026-11-05T00:52:32+0800(score>=60 启用)
+[ 74] ON  qq       yuafeng_qq       标准    2.02s
+[ 87] ON  kuwo     haitangw_kw      320k  0.65s
+[ 86] ON  kuwo     nxinxz_kw        320k  0.71s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  bugpk_163        320k  3.57s
-[ 68] ON  netease  gdstudio         标准    4.65s
+[ 72] ON  netease  gdstudio         320k  3.84s
+[ 72] ON  netease  bugpk_163        320k  4.78s
 [ 50] off lxscript lx:juhe                Nones
-[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
+[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:karpov-lx-source.user.template       Nones
-[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
@@ -22,16 +21,17 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
+[  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:杰翔音乐源               Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
 [  0] off lxscript lx:我的会员音源              Nones
-[  0] off lxscript lx:【推荐】长青SVIP音源v1.2.0（全平台支持无损）       Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun_latest         Nones
 [  0] off lxscript lx:ikun音源（中国香港服务器）v1.0.1       Nones
 [  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:nya                 Nones
+[  0] off lxscript lx:sixyin1.2.1         Nones
