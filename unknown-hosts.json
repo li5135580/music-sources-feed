@@ -20,6 +20,9 @@
   "https://interface.music.163.com/weapi/song/lyric",
   "https://interface.music.163.com/weapi/v1/album/"
  ],
+ "13413.kstore.vip": [
+  "https://13413.kstore.vip/lxmusic/changqing.json"
+ ],
  "github.com": [
   "https://github.com/CharlesPikachu/musicdl/releases/download/keys/baimusic.txt",
   "https://github.com/ELDment/Meting-Agent",
@@ -130,9 +133,6 @@
   "http://u.y.qq.com/cgi-bin/musicu.fcg",
   "https://u.y.qq.com/cgi-bin/musicu.fcg"
  ],
- "13413.kstore.vip": [
-  "https://13413.kstore.vip/lxmusic/changqing.json"
- ],
  "lxmusic.ikunshare.com:9763": [
   "https://lxmusic.ikunshare.com:9763"
  ],
@@ -180,6 +180,27 @@
  ],
  "music.xn--z7x900a.live": [
   "http://music.xn--z7x900a.live"
+ ],
+ "lxmusicapi.onrender.com": [
+  "https://lxmusicapi.onrender.com",
+  "https://lxmusicapi.onrender.com/url/kg/",
+  "https://lxmusicapi.onrender.com/url/kw/",
+  "https://lxmusicapi.onrender.com/url/mg/",
+  "https://lxmusicapi.onrender.com/url/tx/",
+  "https://lxmusicapi.onrender.com/url/wy/"
+ ],
+ "api.ikunshare.com": [
+  "http://api.ikunshare.com",
+  "https://api.ikunshare.com"
+ ],
+ "api.music.lerd.dpdns.org": [
+  "https://api.music.lerd.dpdns.org",
+  "https://api.music.lerd.dpdns.org/",
+  "https://api.music.lerd.dpdns.org/kg",
+  "https://api.music.lerd.dpdns.org/kw",
+  "https://api.music.lerd.dpdns.org/mg",
+  "https://api.music.lerd.dpdns.org/tx",
+  "https://api.music.lerd.dpdns.org/wy"
  ],
  "qm.qq.com": [
   "https://qm.qq.com/cgi-bin/qm/qr"
@@ -249,23 +270,6 @@
   "https://api.chksz.top/api",
   "https://api.chksz.top/api/163_music"
  ],
- "lxmusicapi.onrender.com": [
-  "https://lxmusicapi.onrender.com",
-  "https://lxmusicapi.onrender.com/url/kg/",
-  "https://lxmusicapi.onrender.com/url/kw/",
-  "https://lxmusicapi.onrender.com/url/mg/",
-  "https://lxmusicapi.onrender.com/url/tx/",
-  "https://lxmusicapi.onrender.com/url/wy/"
- ],
- "api.music.lerd.dpdns.org": [
-  "https://api.music.lerd.dpdns.org",
-  "https://api.music.lerd.dpdns.org/",
-  "https://api.music.lerd.dpdns.org/kg",
-  "https://api.music.lerd.dpdns.org/kw",
-  "https://api.music.lerd.dpdns.org/mg",
-  "https://api.music.lerd.dpdns.org/tx",
-  "https://api.music.lerd.dpdns.org/wy"
- ],
  "api.vsaa.cn": [
   "http://api.vsaa.cn/api/music.qishui.vip",
   "https://api.vsaa.cn/api/music.qishui.vip",
@@ -306,9 +310,16 @@
  "api.xinghai-backend.cn": [
   "https://api.xinghai-backend.cn/migu"
  ],
- "api.ikunshare.com": [
-  "http://api.ikunshare.com",
-  "https://api.ikunshare.com"
+ "music-dl.sayqz.com": [
+  "https://music-dl.sayqz.com/api/"
+ ],
+ "api.huibq.com": [
+  "https://api.huibq.com",
+  "https://api.huibq.com/api"
+ ],
+ "api.lingchuan.com": [
+  "https://api.lingchuan.com",
+  "https://api.lingchuan.com/v1"
  ],
  "api.open-meteo.com": [
   "https://api.open-meteo.com/v1/forecast"
@@ -329,17 +340,6 @@
  "ws.stream.qqmusic.qq.com": [
   "https://ws.stream.qqmusic.qq.com/"
  ],
- "music-dl.sayqz.com": [
-  "https://music-dl.sayqz.com/api/"
- ],
- "api.huibq.com": [
-  "https://api.huibq.com",
-  "https://api.huibq.com/api"
- ],
- "api.lingchuan.com": [
-  "https://api.lingchuan.com",
-  "https://api.lingchuan.com/v1"
- ],
  "h5static.kuwo.cn": [
   "https://h5static.kuwo.cn/www/kw-www/"
  ],
@@ -359,9 +359,6 @@
   "https://lx.8880588.xyz/music/qq",
   "https://lx.8880588.xyz/music/wy"
  ],
- "api.v2.sukimon.me:19742": [
-  "https://api.v2.sukimon.me:19742"
- ],
  "yinyue.haitangw.net": [
   "http://yinyue.haitangw.net/kg/kg_song_kw.php",
   "http://yinyue.haitangw.net/mg/migu.php",
@@ -377,17 +374,14 @@
   "https://img1.kwcdn.kuwo.cn",
   "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
+ "api.v2.sukimon.me:19742": [
+  "https://api.v2.sukimon.me:19742"
+ ],
  "api.ikunshare.top:8000": [
   "https://api.ikunshare.top:8000"
  ],
  "m-api.ceseet.me": [
   "https://m-api.ceseet.me"
- ],
- "music.ikun0014.top": [
-  "https://music.ikun0014.top"
- ],
- "lc.guoyue2010.top": [
-  "https://lc.guoyue2010.top/api/music"
  ],
  "animemusic.bzxhkj.com": [
   "https://animemusic.bzxhkj.com/v1/index.php"
@@ -471,6 +465,9 @@
  "itapi.top": [
   "http://itapi.top/API/get_wyyid.php"
  ],
+ "lc.guoyue2010.top": [
+  "https://lc.guoyue2010.top/api/music"
+ ],
  "music.bxa241d4.shop": [
   "https://music.bxa241d4.shop",
   "https://music.bxa241d4.shop/api/music/url"
@@ -523,5 +520,8 @@
  ],
  "qqdecv6.942240.xyz:11451": [
   "http://qqdecv6.942240.xyz:11451"
+ ],
+ "music.ikun0014.top": [
+  "https://music.ikun0014.top"
  ]
 }
