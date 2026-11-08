@@ -1,16 +1,15 @@
-# 音源实测榜 2026-11-08T00:26:25+0800(score>=60 启用)
-[ 45] off qq       yuafeng_qq       疑似试听  4.4s
-[ 86] ON  kuwo     nxinxz_kw        320k  0.83s
-[ 82] ON  kuwo     haitangw_kw      320k  1.45s
+# 音源实测榜 2026-11-08T12:24:07+0800(score>=60 启用)
+[ 45] off qq       yuafeng_qq       疑似试听  6.05s
+[ 88] ON  kuwo     haitangw_kw      320k  0.46s
+[ 84] ON  kuwo     nxinxz_kw        320k  1.01s
 [ 20] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  bugpk_163        320k  3.93s
-[ 72] ON  netease  gdstudio         320k  4.17s
+[ 76] ON  netease  bugpk_163        标准    1.75s
+[ 72] ON  netease  gdstudio         320k  5.22s
 [ 50] off lxscript lx:juhe                Nones
 [ 50] off lxscript lx:K×H测试 v1.7.17       Nones
 [ 50] off lxscript lx:星海音乐源 v2.3.11       Nones
-[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
-[  0] off lxscript lx:karpov-lx-source.user.template       Nones
+[  0] off lxscript lx:Script              Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
 [  0] off lxscript lx:monster             Nones
@@ -20,6 +19,7 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
+[  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:lx-source-script       Nones
 [  0] off lxscript lx:index               Nones
 [  0] off lxscript lx:lx                  Nones
@@ -29,9 +29,9 @@
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
+[  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:HYWmusic_beta_公益测试 v0.74.0       Nones
 [  0] off lxscript lx:墨澜聚合音源 v2.2.0       Nones
-[  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:【推荐】长青SVIP音源v1.2.0（全平台支持无损）       Nones
+[  0] off lxscript lx:lx-music-source V3.0       Nones
 [  0] off lxscript lx:MusicDownloader       Nones
-[  0] off lxscript lx:huibq               Nones
