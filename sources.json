@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T12:49:38+0800",
+ "generated_at": "2026-11-10T00:55:13+0800",
  "test_songs": [
   "晴天 周杰伦",
   "坠落 蔡健雅"
@@ -16,14 +16,14 @@
    "title_field": "song",
    "artist_field": "singer",
    "url_path": "data.music",
-   "score": 45,
+   "score": 51,
    "quality": "疑似试听",
-   "latency_s": 9.25,
+   "latency_s": 2.02,
    "detail": {
     "search": "ok",
     "first": "晴天",
     "bytes": 960887,
-    "latency_s": 9.25,
+    "latency_s": 2.02,
     "used": "晴天"
    },
    "evidence": [
@@ -34,36 +34,7 @@
     "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/良好-支持至少两平台FLAC/lx-玉宁熙 v1.1.5 需自行配置.js"
    ],
    "enabled": false,
-   "checked_at": "2026-11-09T12:49:38+0800"
-  },
-  {
-   "name": "nxinxz_kw",
-   "platform": "kuwo",
-   "pattern": "redirect",
-   "search_tpl": "",
-   "url_tpl": "https://music.nxinxz.com/kw.php?type=mp3&id={id}&level=320k",
-   "list_path": "",
-   "id_field": "",
-   "title_field": "",
-   "artist_field": "",
-   "url_path": "",
-   "score": 85,
-   "quality": "320k",
-   "latency_s": 0.88,
-   "detail": {
-    "bytes": 10792943,
-    "latency_s": 0.88,
-    "used": ""
-   },
-   "evidence": [
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260322/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js",
-    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260328/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js",
-    "Qian-Ning/LX-Music-Source:LX-Music-Source-main/全豆要-聚合音源v5.0.js",
-    "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js"
-   ],
-   "enabled": true,
-   "checked_at": "2026-11-09T12:49:38+0800"
+   "checked_at": "2026-11-10T00:55:13+0800"
   },
   {
    "name": "haitangw_kw",
@@ -76,12 +47,12 @@
    "title_field": "",
    "artist_field": "",
    "url_path": "",
-   "score": 83,
+   "score": 87,
    "quality": "320k",
-   "latency_s": 1.25,
+   "latency_s": 0.61,
    "detail": {
     "bytes": 10792943,
-    "latency_s": 1.25,
+    "latency_s": 0.61,
     "used": ""
    },
    "evidence": [
@@ -92,7 +63,36 @@
     "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js"
    ],
    "enabled": true,
-   "checked_at": "2026-11-09T12:49:38+0800"
+   "checked_at": "2026-11-10T00:55:13+0800"
+  },
+  {
+   "name": "nxinxz_kw",
+   "platform": "kuwo",
+   "pattern": "redirect",
+   "search_tpl": "",
+   "url_tpl": "https://music.nxinxz.com/kw.php?type=mp3&id={id}&level=320k",
+   "list_path": "",
+   "id_field": "",
+   "title_field": "",
+   "artist_field": "",
+   "url_path": "",
+   "score": 86,
+   "quality": "320k",
+   "latency_s": 0.74,
+   "detail": {
+    "bytes": 10792943,
+    "latency_s": 0.74,
+    "used": ""
+   },
+   "evidence": [
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260322/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js",
+    "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260328/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js",
+    "Qian-Ning/LX-Music-Source:LX-Music-Source-main/全豆要-聚合音源v5.0.js",
+    "guoyue2010/lxmusic-:lxmusic--main/V2603_latest/优质-支持四平台FLAC/全豆要(聚合音源)/全豆要-聚合音源 v3.0.0 TSS解密版.js"
+   ],
+   "enabled": true,
+   "checked_at": "2026-11-10T00:55:13+0800"
   },
   {
    "name": "oiapi_kuwo",
@@ -120,7 +120,7 @@
     "Qian-Ning/LX-Music-Source:LX-Music-Source-main/溯音音源 v1.js"
    ],
    "enabled": false,
-   "checked_at": "2026-11-09T12:49:38+0800"
+   "checked_at": "2026-11-10T00:55:13+0800"
   },
   {
    "name": "bugpk_163",
@@ -133,12 +133,12 @@
    "title_field": "",
    "artist_field": "",
    "url_path": "url",
-   "score": 82,
-   "quality": "标准",
-   "latency_s": 0.71,
+   "score": 77,
+   "quality": "320k",
+   "latency_s": 2.29,
    "detail": {
-    "bytes": 4464684,
-    "latency_s": 0.71,
+    "bytes": 11161644,
+    "latency_s": 2.29,
     "used": ""
    },
    "evidence": [
@@ -149,7 +149,7 @@
     "guoyue2010/lxmusic-:lxmusic--main/V260817/其他/星澜.js"
    ],
    "enabled": true,
-   "checked_at": "2026-11-09T12:49:38+0800"
+   "checked_at": "2026-11-10T00:55:13+0800"
   },
   {
    "name": "gdstudio",
@@ -162,12 +162,15 @@
    "title_field": "name",
    "artist_field": "artist",
    "url_path": "url",
-   "score": 20,
-   "quality": "",
-   "latency_s": null,
+   "score": 74,
+   "quality": "320k",
+   "latency_s": 2.72,
    "detail": {
     "search": "ok",
-    "first": "晴天 (原唱 周杰伦)"
+    "first": "晴天 (原唱 周杰伦)",
+    "bytes": 10831725,
+    "latency_s": 2.72,
+    "used": "晴天 (原唱 周杰伦)"
    },
    "evidence": [
     "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js",
@@ -176,8 +179,8 @@
     "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260302/良好-支持至少两平台FLAC/统一音乐源.js",
     "Macrohard0001/lx-ikun-music-sources:lx-ikun-music-sources-main/V260318/优质-支持四平台FLAC/全豆要-聚合音源 v4.1 TSS解密版,兼容性处理，.js"
    ],
-   "enabled": false,
-   "checked_at": "2026-11-09T12:49:38+0800"
+   "enabled": true,
+   "checked_at": "2026-11-10T00:55:13+0800"
   },
   {
    "name": "lx:juhe",
@@ -186,7 +189,7 @@
    "enabled": false,
    "score": 50,
    "sandbox_ok": true,
-   "sandbox_url": "http://m801.music.126.net/20261109131522/0ad4117e6eb0f6f2983bbd1cca28258e/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869966078/",
+   "sandbox_url": "https://m701.music.126.net/20261110012043/834b112c3a1297637ff2460c869a9b3c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869964448",
    "sandbox_sources": [
     "wy",
     "tx",
@@ -198,7 +201,47 @@
    "evidence": [
     "hejuworld-droid/lx-music-source:lx-music-source-main/juhe/juhe.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:K×H测试 v1.7.17",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 50,
+   "sandbox_ok": true,
+   "sandbox_url": "http://m701.music.126.net/20261110012111/f5362487e67f35621b0fb6bf543e95ad/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869966078/",
+   "sandbox_sources": [
+    "wy",
+    "tx",
+    "kw",
+    "kg",
+    "mg"
+   ],
+   "evidence": [
+    "javon4016/xgzy-mysources:xgzy-mysources-main/K×H测试 v1.7.17.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:星海音乐源 v2.3.11",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 50,
+   "sandbox_ok": true,
+   "sandbox_url": "https://m801.music.126.net/20261110012119/19b05337372ab1001ba8f6deb425e51c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/56869964448",
+   "sandbox_sources": [
+    "wy",
+    "tx",
+    "kg",
+    "kw",
+    "mg"
+   ],
+   "evidence": [
+    "javon4016/xgzy-mysources:xgzy-mysources-main/星海音乐源 v2.3.11.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0",
@@ -215,10 +258,30 @@
    "evidence": [
     "7878gyc/gdstudio-lx-source:gdstudio-lx-source-main/洛雪音乐自定义音源-基于GD音乐台-v1.0.0.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
-   "name": "lx:Script",
+   "name": "lx:lx-source-script",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "",
+   "sandbox_sources": [
+    "kw",
+    "wy",
+    "tx",
+    "kg",
+    "mg"
+   ],
+   "evidence": [
+    "ZxwyWebSite/lx-script:lx-script-main/dist/lx-source-script.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:index",
    "platform": "lxscript",
    "pattern": "lxscript",
    "enabled": false,
@@ -227,9 +290,23 @@
    "sandbox_url": "",
    "sandbox_sources": null,
    "evidence": [
-    "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js"
+    "ZxwyWebSite/lx-script:lx-script-main/src/index.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:lx",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "",
+   "sandbox_sources": null,
+   "evidence": [
+    "ZxwyWebSite/lx-script:lx-script-main/src/lx.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:karpov-lx-source.user.template",
@@ -243,7 +320,35 @@
    "evidence": [
     "Scotlight/lx-music-source-gateway:lx-music-source-gateway-main/src/karpov-lx-source.user.template.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:Script",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "",
+   "sandbox_sources": null,
+   "evidence": [
+    "ZhonX07/lx-music-source-netease:lx-music-source-netease-main/Script.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:lx-custom-source",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "",
+   "sandbox_sources": [],
+   "evidence": [
+    "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-custom-source.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:Huibq_lxmusic源",
@@ -263,7 +368,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/Huibq_lxmusic源.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:ikun-source",
@@ -284,7 +389,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/ikun-source.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:monster",
@@ -293,7 +398,7 @@
    "enabled": false,
    "score": 0,
    "sandbox_ok": false,
-   "sandbox_url": "http://kw-er.kuwo.cn/fa4b4fa6e9bf044d06a53340942d28f2/6af150ea/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
+   "sandbox_url": "http://kw-er.kuwo.cn/313e9594561727d10ac9a6c712a7b875/6af1fafd/resource/30106/trackmedia/M5000004Gmy54cGDqK.mp3",
    "sandbox_sources": [
     "kw",
     "kg",
@@ -304,7 +409,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/monster.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:sixyin-music-source-v1.2.1-encrypt",
@@ -318,7 +423,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/sixyin-music-source-v1.2.1-encrypt.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:小熊猫音源1.1.2",
@@ -338,7 +443,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/小熊猫音源1.1.2.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:無名v0.0.3",
@@ -352,7 +457,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/無名v0.0.3.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:聚合API接口",
@@ -366,7 +471,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/聚合API接口.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:肥猫不肥",
@@ -387,7 +492,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/肥猫不肥.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:至尊源",
@@ -408,69 +513,7 @@
    "evidence": [
     "LXJ-George666/LXMusic-Yinyuan:LXMusic-Yinyuan-main/至尊源.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:lx-source-script",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": [
-    "kw",
-    "wy",
-    "tx",
-    "kg",
-    "mg"
-   ],
-   "evidence": [
-    "ZxwyWebSite/lx-script:lx-script-main/dist/lx-source-script.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:index",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": null,
-   "evidence": [
-    "ZxwyWebSite/lx-script:lx-script-main/src/index.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:lx",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": null,
-   "evidence": [
-    "ZxwyWebSite/lx-script:lx-script-main/src/lx.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:lx-custom-source",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": [],
-   "evidence": [
-    "ZxwyWebSite/lx-source:lx-source-main/src/server/public/lx-custom-source.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:杰翔音乐源",
@@ -479,7 +522,7 @@
    "enabled": false,
    "score": 0,
    "sandbox_ok": false,
-   "sandbox_url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=FE653D668C8F18670778FEF9F49A811F95B629D400",
+   "sandbox_url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=BE99D8C6E97C443534B7A688300E60934F114D598C",
    "sandbox_sources": [
     "tx",
     "wy",
@@ -490,7 +533,24 @@
    "evidence": [
     "haonanren118/jiexiang-Music-Source:jiexiang-Music-Source-main/杰翔音乐源.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:我的会员音源",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "",
+   "sandbox_sources": [
+    "wy",
+    "tx"
+   ],
+   "evidence": [
+    "hllsg/lx-music-myvip:lx-music-myvip-main/我的会员音源.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:huibq",
@@ -510,7 +570,7 @@
    "evidence": [
     "fengyvle/yyt-music-sources:yyt-music-sources-main/huibq.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:ikun",
@@ -528,7 +588,7 @@
    "evidence": [
     "fengyvle/yyt-music-sources:yyt-music-sources-main/ikun.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:juhe",
@@ -539,16 +599,16 @@
    "sandbox_ok": false,
    "sandbox_url": "",
    "sandbox_sources": [
-    "kg",
     "kw",
-    "mg",
+    "wy",
     "tx",
-    "wy"
+    "kg",
+    "mg"
    ],
    "evidence": [
     "fengyvle/yyt-music-sources:yyt-music-sources-main/juhe.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:sixyin",
@@ -562,10 +622,10 @@
    "evidence": [
     "fengyvle/yyt-music-sources:yyt-music-sources-main/sixyin.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
-   "name": "lx:我的会员音源",
+   "name": "lx:HYWmusic_beta_公益测试 v0.74.0",
    "platform": "lxscript",
    "pattern": "lxscript",
    "enabled": false,
@@ -573,13 +633,36 @@
    "sandbox_ok": false,
    "sandbox_url": "",
    "sandbox_sources": [
+    "kw",
+    "kg",
+    "tx",
     "wy",
-    "tx"
+    "mg"
    ],
    "evidence": [
-    "hllsg/lx-music-myvip:lx-music-myvip-main/我的会员音源.js"
+    "javon4016/xgzy-mysources:xgzy-mysources-main/HYWmusic_beta_公益测试 v0.74.0.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
+  },
+  {
+   "name": "lx:墨澜聚合音源 v2.2.0",
+   "platform": "lxscript",
+   "pattern": "lxscript",
+   "enabled": false,
+   "score": 0,
+   "sandbox_ok": false,
+   "sandbox_url": "http://ws.stream.qqmusic.qq.com/RS02001Bbywq2gicae.mp3?guid=api.vkeys.cn&vkey=BE99D8C6E97C443534B7A688300E60934F114D598C",
+   "sandbox_sources": [
+    "tx",
+    "wy",
+    "kw",
+    "kg",
+    "mg"
+   ],
+   "evidence": [
+    "javon4016/xgzy-mysources:xgzy-mysources-main/墨澜聚合音源 v2.2.0.js"
+   ],
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:MusicDownloader",
@@ -600,7 +683,7 @@
    "evidence": [
     "a97083435/lxmusic-source:lxmusic-source-main/MusicDownloader.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:huibq",
@@ -620,7 +703,7 @@
    "evidence": [
     "a97083435/lxmusic-source:lxmusic-source-main/huibq.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   },
   {
    "name": "lx:ikun_latest",
@@ -640,75 +723,7 @@
    "evidence": [
     "a97083435/lxmusic-source:lxmusic-source-main/ikun_latest.js"
    ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:ikun音源（中国香港服务器）v1.0.1",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": [
-    "kw",
-    "kg",
-    "tx",
-    "wy",
-    "mg"
-   ],
-   "evidence": [
-    "a97083435/lxmusic-source:lxmusic-source-main/ikun音源（中国香港服务器）v1.0.1.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:lx-music-source V3.0",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": null,
-   "evidence": [
-    "a97083435/lxmusic-source:lxmusic-source-main/lx-music-source V3.0.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:nya",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": [
-    "kw",
-    "kg",
-    "tx",
-    "wy",
-    "mg"
-   ],
-   "evidence": [
-    "a97083435/lxmusic-source:lxmusic-source-main/nya.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
-  },
-  {
-   "name": "lx:sixyin1.2.1",
-   "platform": "lxscript",
-   "pattern": "lxscript",
-   "enabled": false,
-   "score": 0,
-   "sandbox_ok": false,
-   "sandbox_url": "",
-   "sandbox_sources": null,
-   "evidence": [
-    "a97083435/lxmusic-source:lxmusic-source-main/sixyin1.2.1.js"
-   ],
-   "checked_at": "2026-11-09T12:51:05+0800"
+   "checked_at": "2026-11-10T00:56:25+0800"
   }
  ]
 }
