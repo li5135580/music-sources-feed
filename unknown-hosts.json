@@ -314,9 +314,6 @@
  "api.xinghai-backend.cn": [
   "https://api.xinghai-backend.cn/migu"
  ],
- "h5static.kuwo.cn": [
-  "https://h5static.kuwo.cn/www/kw-www/"
- ],
  "music-dl.sayqz.com": [
   "https://music-dl.sayqz.com/api/"
  ],
@@ -353,6 +350,9 @@
  "ynx.de5.net": [
   "http://ynx.de5.net/API/lx-ynx.php"
  ],
+ "h5static.kuwo.cn": [
+  "https://h5static.kuwo.cn/www/kw-www/"
+ ],
  "example.com": [
   "https://example.com/song.flac"
  ],
@@ -364,9 +364,6 @@
  ],
  "api.v2.sukimon.me:19742": [
   "https://api.v2.sukimon.me:19742"
- ],
- "api.ikunshare.top:8000": [
-  "https://api.ikunshare.top:8000"
  ],
  "yinyue.haitangw.net": [
   "http://yinyue.haitangw.net/kg/kg_song_kw.php",
@@ -419,8 +416,8 @@
  "m-api.ceseet.me": [
   "https://m-api.ceseet.me"
  ],
- "animemusic.bzxhkj.com": [
-  "https://animemusic.bzxhkj.com/v1/index.php"
+ "api.ikunshare.top:8000": [
+  "https://api.ikunshare.top:8000"
  ],
  "songsearch.kugou.com": [
   "https://songsearch.kugou.com/song_search_v2"
@@ -483,6 +480,9 @@
  "y.music.163.com": [
   "https://y.music.163.com/"
  ],
+ "animemusic.bzxhkj.com": [
+  "https://animemusic.bzxhkj.com/v1/index.php"
+ ],
  "api.s0o1.com": [
   "https://api.s0o1.com/API/wyy_music"
  ],
@@ -527,9 +527,6 @@
  "api.yuafeng.com": [
   "https://api.yuafeng.com/kg"
  ],
- "music.ikun0014.top": [
-  "https://music.ikun0014.top"
- ],
  "www.s0o1.com": [
   "https://www.s0o1.com/API/wyy_music"
  ],
@@ -544,5 +541,8 @@
  ],
  "qqdecv6.942240.xyz:11451": [
   "http://qqdecv6.942240.xyz:11451"
+ ],
+ "music.ikun0014.top": [
+  "https://music.ikun0014.top"
  ]
 }
