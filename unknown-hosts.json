@@ -1,7 +1,4 @@
 {
- "13413.kstore.vip": [
-  "https://13413.kstore.vip/lxmusic/changqing.json"
- ],
  "music.163.com": [
   "http://music.163.com/api/cloudsearch/pc",
   "http://music.163.com/api/song/detail",
@@ -23,6 +20,9 @@
   "https://interface.music.163.com/eapi/song/enhance/player/url/v1",
   "https://interface.music.163.com/weapi/song/lyric",
   "https://interface.music.163.com/weapi/v1/album/"
+ ],
+ "13413.kstore.vip": [
+  "https://13413.kstore.vip/lxmusic/changqing.json"
  ],
  "github.com": [
   "https://github.com/CharlesPikachu/musicdl/releases/download/keys/baimusic.txt",
@@ -343,15 +343,15 @@
  "ws.stream.qqmusic.qq.com": [
   "https://ws.stream.qqmusic.qq.com/"
  ],
+ "h5static.kuwo.cn": [
+  "https://h5static.kuwo.cn/www/kw-www/"
+ ],
  "gitee.com": [
   "https://gitee.com/Myn_1/Mao_Yuna/raw/MYN_update/lx-music/lx-玉宁熙.js",
   "https://gitee.com/nianxinxz1/emo-music/raw/master/wubian.json"
  ],
  "ynx.de5.net": [
   "http://ynx.de5.net/API/lx-ynx.php"
- ],
- "h5static.kuwo.cn": [
-  "https://h5static.kuwo.cn/www/kw-www/"
  ],
  "example.com": [
   "https://example.com/song.flac"
@@ -362,11 +362,56 @@
   "https://lx.8880588.xyz/music/qq",
   "https://lx.8880588.xyz/music/wy"
  ],
+ "api.v2.sukimon.me:19742": [
+  "https://api.v2.sukimon.me:19742"
+ ],
+ "yinyue.haitangw.net": [
+  "http://yinyue.haitangw.net/kg/kg_song_kw.php",
+  "http://yinyue.haitangw.net/mg/migu.php",
+  "http://yinyue.haitangw.net/qq/qq_kw.php"
+ ],
+ "api-vehicle.volcengine.com": [
+  "https://api-vehicle.volcengine.com/v2/search/type"
+ ],
+ "api.qishui.com": [
+  "https://api.qishui.com/luna/h5/track"
+ ],
  "a.aa.cab": [
   "https://a.aa.cab/qq.music"
  ],
- "animemusic.bzxhkj.com": [
-  "https://animemusic.bzxhkj.com/v1/index.php"
+ "api.xunhuisi.store": [
+  "https://api.xunhuisi.store/API/QQMusic/Song.php"
+ ],
+ "music.lzmhhh.com": [
+  "https://music.lzmhhh.com/",
+  "https://music.lzmhhh.com/api/music/url"
+ ],
+ "api.yutangxiaowu.cn": [
+  "https://api.yutangxiaowu.cn/api/music/Song_V1"
+ ],
+ "ncm.kangqiovo.com": [
+  "https://ncm.kangqiovo.com/Song_V1"
+ ],
+ "metings.qjqq.cn": [
+  "https://metings.qjqq.cn/Song_V1"
+ ],
+ "ffapi.cn": [
+  "https://ffapi.cn/int/v1/netease_url",
+  "https://ffapi.cn/int/v2/songurl"
+ ],
+ "api.bileizhen.top": [
+  "https://api.bileizhen.top/api/netease"
+ ],
+ "search.kuwo.cn": [
+  "http://search.kuwo.cn/r.s",
+  "https://search.kuwo.cn/r.s"
+ ],
+ "anymatch.kuwo.cn": [
+  "http://anymatch.kuwo.cn/mobi.s"
+ ],
+ "img1.kwcdn.kuwo.cn": [
+  "https://img1.kwcdn.kuwo.cn",
+  "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
  "api.ikunshare.top:8000": [
   "https://api.ikunshare.top:8000"
@@ -374,8 +419,8 @@
  "m-api.ceseet.me": [
   "https://m-api.ceseet.me"
  ],
- "api.v2.sukimon.me:19742": [
-  "https://api.v2.sukimon.me:19742"
+ "animemusic.bzxhkj.com": [
+  "https://animemusic.bzxhkj.com/v1/index.php"
  ],
  "songsearch.kugou.com": [
   "https://songsearch.kugou.com/song_search_v2"
@@ -420,10 +465,6 @@
  "img4.kuwo.cn": [
   "https://img4.kuwo.cn/star/albumcover/1080"
  ],
- "search.kuwo.cn": [
-  "http://search.kuwo.cn/r.s",
-  "https://search.kuwo.cn/r.s"
- ],
  "wapi.kuwo.cn": [
   "http://wapi.kuwo.cn/api/pc/bang/list",
   "http://wapi.kuwo.cn/api/pc/classify/playlist/getTagList",
@@ -441,47 +482,6 @@
  ],
  "y.music.163.com": [
   "https://y.music.163.com/"
- ],
- "yinyue.haitangw.net": [
-  "http://yinyue.haitangw.net/kg/kg_song_kw.php",
-  "http://yinyue.haitangw.net/mg/migu.php",
-  "http://yinyue.haitangw.net/qq/qq_kw.php"
- ],
- "api-vehicle.volcengine.com": [
-  "https://api-vehicle.volcengine.com/v2/search/type"
- ],
- "api.qishui.com": [
-  "https://api.qishui.com/luna/h5/track"
- ],
- "api.xunhuisi.store": [
-  "https://api.xunhuisi.store/API/QQMusic/Song.php"
- ],
- "music.lzmhhh.com": [
-  "https://music.lzmhhh.com/",
-  "https://music.lzmhhh.com/api/music/url"
- ],
- "api.yutangxiaowu.cn": [
-  "https://api.yutangxiaowu.cn/api/music/Song_V1"
- ],
- "ncm.kangqiovo.com": [
-  "https://ncm.kangqiovo.com/Song_V1"
- ],
- "metings.qjqq.cn": [
-  "https://metings.qjqq.cn/Song_V1"
- ],
- "ffapi.cn": [
-  "https://ffapi.cn/int/v1/netease_url",
-  "https://ffapi.cn/int/v2/songurl"
- ],
- "api.bileizhen.top": [
-  "https://api.bileizhen.top/api/netease"
- ],
- "anymatch.kuwo.cn": [
-  "http://anymatch.kuwo.cn/mobi.s"
- ],
- "img1.kwcdn.kuwo.cn": [
-  "https://img1.kwcdn.kuwo.cn",
-  "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
  "api.s0o1.com": [
   "https://api.s0o1.com/API/wyy_music"
