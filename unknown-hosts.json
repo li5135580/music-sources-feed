@@ -1,4 +1,7 @@
 {
+ "13413.kstore.vip": [
+  "https://13413.kstore.vip/lxmusic/changqing.json"
+ ],
  "music.163.com": [
   "http://music.163.com/api/cloudsearch/pc",
   "http://music.163.com/api/song/detail",
@@ -20,9 +23,6 @@
   "https://interface.music.163.com/eapi/song/enhance/player/url/v1",
   "https://interface.music.163.com/weapi/song/lyric",
   "https://interface.music.163.com/weapi/v1/album/"
- ],
- "13413.kstore.vip": [
-  "https://13413.kstore.vip/lxmusic/changqing.json"
  ],
  "github.com": [
   "https://github.com/CharlesPikachu/musicdl/releases/download/keys/baimusic.txt",
@@ -187,23 +187,11 @@
  "qm.qq.com": [
   "https://qm.qq.com/cgi-bin/qm/qr"
  ],
- "88.lxmusic.xn": [
-  "https://88.lxmusic.xn"
- ],
  "ut.y.qq.com": [
   "https://ut.y.qq.com/cgi-bin/musicu.fcg"
  ],
  "dl.stream.qqmusic.qq.com": [
   "https://dl.stream.qqmusic.qq.com/"
- ],
- "api.ygking.cn": [
-  "https://api.ygking.cn/api/song/url"
- ],
- "api.canxiang.cn": [
-  "https://api.canxiang.cn/api/wyymusic"
- ],
- "api.xinghai.com": [
-  "https://api.xinghai.com/lx/api/"
  ],
  "api.yunmge.com": [
   "https://api.yunmge.com/kuwo"
@@ -211,46 +199,14 @@
  "mcp.nianxinxz.com": [
   "https://mcp.nianxinxz.com/kgqq/kg.php"
  ],
+ "animemusic.bzxhkj.com": [
+  "https://animemusic.bzxhkj.com/v1/index.php"
+ ],
  "isure.stream.qqmusic.qq.com": [
   "https://isure.stream.qqmusic.qq.com/"
  ],
- "yy.zddyr.top": [
-  "https://yy.zddyr.top/lx/api/"
- ],
- "zrcdy.dpdns.org": [
-  "https://zrcdy.dpdns.org/lx/api/api.php",
-  "https://zrcdy.dpdns.org/lx/xinghai-music-source.js",
-  "https://zrcdy.dpdns.org/xinghai-music-source.js"
- ],
- "api.xcvts.cn": [
-  "https://api.xcvts.cn/api/music/migu",
-  "https://api.xcvts.cn/api/music/qq"
- ],
- "api.vkeys.cn": [
-  "https://api.vkeys.cn/music/tencent/song/link",
-  "https://api.vkeys.cn/v2/music/tencent",
-  "https://api.vkeys.cn/v2/music/tencent/geturl"
- ],
- "api.liuyunidc.cn": [
-  "http://api.liuyunidc.cn/baimusic/",
-  "https://api.liuyunidc.cn/baimusic/musicurl.php"
- ],
- "api.317ak.cn": [
-  "https://api.317ak.cn/api/yinyue/qqyinyue"
- ],
- "api.nki.pw": [
-  "https://api.nki.pw/API/music_open_api.php",
-  "https://api.nki.pw/API/music_open_api_web.php"
- ],
- "tang.api.s01s.cn": [
-  "https://tang.api.s01s.cn/music_open_api.php"
- ],
  "cyapi.top": [
   "https://cyapi.top/API/qq_music.php"
- ],
- "api.chksz.top": [
-  "https://api.chksz.top/api",
-  "https://api.chksz.top/api/163_music"
  ],
  "lxmusicapi.onrender.com": [
   "https://lxmusicapi.onrender.com",
@@ -260,22 +216,20 @@
   "https://lxmusicapi.onrender.com/url/tx/",
   "https://lxmusicapi.onrender.com/url/wy/"
  ],
- "api.music.lerd.dpdns.org": [
-  "https://api.music.lerd.dpdns.org",
-  "https://api.music.lerd.dpdns.org/",
-  "https://api.music.lerd.dpdns.org/kg",
-  "https://api.music.lerd.dpdns.org/kw",
-  "https://api.music.lerd.dpdns.org/mg",
-  "https://api.music.lerd.dpdns.org/tx",
-  "https://api.music.lerd.dpdns.org/wy"
+ "tang.api.s01s.cn": [
+  "https://tang.api.s01s.cn/music_open_api.php"
  ],
- "api.vsaa.cn": [
-  "http://api.vsaa.cn/api/music.qishui.vip",
-  "https://api.vsaa.cn/api/music.qishui.vip",
-  "https://api.vsaa.cn/api/music.qq"
+ "api.vkeys.cn": [
+  "https://api.vkeys.cn/music/tencent/song/link",
+  "https://api.vkeys.cn/v2/music/tencent",
+  "https://api.vkeys.cn/v2/music/tencent/geturl"
  ],
  "c.wwwweb.top": [
   "https://c.wwwweb.top/music/url"
+ ],
+ "api.chksz.top": [
+  "https://api.chksz.top/api",
+  "https://api.chksz.top/api/163_music"
  ],
  "api.cenguigui.cn": [
   "https://api.cenguigui.cn/api/kuwo/music_v1.php",
@@ -286,13 +240,31 @@
   "https://wyapi.toubiec.cn/",
   "https://wyapi.toubiec.cn/api/music/url"
  ],
+ "yy.zddyr.top": [
+  "https://yy.zddyr.top/lx/api/"
+ ],
+ "zrcdy.dpdns.org": [
+  "https://zrcdy.dpdns.org/lx/api/api.php",
+  "https://zrcdy.dpdns.org/lx/xinghai-music-source.js",
+  "https://zrcdy.dpdns.org/xinghai-music-source.js"
+ ],
+ "api.vsaa.cn": [
+  "http://api.vsaa.cn/api/music.qishui.vip",
+  "https://api.vsaa.cn/api/music.qishui.vip",
+  "https://api.vsaa.cn/api/music.qq"
+ ],
+ "api.music.lerd.dpdns.org": [
+  "https://api.music.lerd.dpdns.org",
+  "https://api.music.lerd.dpdns.org/",
+  "https://api.music.lerd.dpdns.org/kg",
+  "https://api.music.lerd.dpdns.org/kw",
+  "https://api.music.lerd.dpdns.org/mg",
+  "https://api.music.lerd.dpdns.org/tx",
+  "https://api.music.lerd.dpdns.org/wy"
+ ],
  "mobi.kuwo.cn": [
   "http://mobi.kuwo.cn/mobi.s",
   "https://mobi.kuwo.cn/mobi.s"
- ],
- "source.shiqianjiang.cn": [
-  "https://source.shiqianjiang.cn/api/music",
-  "https://source.shiqianjiang.cn/api/music/url"
  ],
  "musicserver.haitangw.cc": [
   "https://musicserver.haitangw.cc/v1/",
@@ -307,11 +279,16 @@
   "https://www.kugou.com/",
   "https://www.kugou.com/song/"
  ],
- "api.xinghai-backend.cn": [
-  "https://api.xinghai-backend.cn/migu"
+ "source.shiqianjiang.cn": [
+  "https://source.shiqianjiang.cn/api/music",
+  "https://source.shiqianjiang.cn/api/music/url"
  ],
  "music-dl.sayqz.com": [
   "https://music-dl.sayqz.com/api/"
+ ],
+ "api.xcvts.cn": [
+  "https://api.xcvts.cn/api/music/migu",
+  "https://api.xcvts.cn/api/music/qq"
  ],
  "api.huibq.com": [
   "https://api.huibq.com",
@@ -320,6 +297,10 @@
  "api.lingchuan.com": [
   "https://api.lingchuan.com",
   "https://api.lingchuan.com/v1"
+ ],
+ "api.ikunshare.com": [
+  "http://api.ikunshare.com",
+  "https://api.ikunshare.com"
  ],
  "api.open-meteo.com": [
   "https://api.open-meteo.com/v1/forecast"
@@ -339,16 +320,29 @@
  "ws.stream.qqmusic.qq.com": [
   "https://ws.stream.qqmusic.qq.com/"
  ],
- "api.ikunshare.com": [
-  "http://api.ikunshare.com",
-  "https://api.ikunshare.com"
- ],
  "gitee.com": [
   "https://gitee.com/Myn_1/Mao_Yuna/raw/MYN_update/lx-music/lx-玉宁熙.js",
   "https://gitee.com/nianxinxz1/emo-music/raw/master/wubian.json"
  ],
  "ynx.de5.net": [
   "http://ynx.de5.net/API/lx-ynx.php"
+ ],
+ "88.lxmusic.xn": [
+  "https://88.lxmusic.xn"
+ ],
+ "api.liuyunidc.cn": [
+  "http://api.liuyunidc.cn/baimusic/",
+  "https://api.liuyunidc.cn/baimusic/musicurl.php"
+ ],
+ "api.317ak.cn": [
+  "https://api.317ak.cn/api/yinyue/qqyinyue"
+ ],
+ "api.nki.pw": [
+  "https://api.nki.pw/API/music_open_api.php",
+  "https://api.nki.pw/API/music_open_api_web.php"
+ ],
+ "api.xinghai-backend.cn": [
+  "https://api.xinghai-backend.cn/migu"
  ],
  "h5static.kuwo.cn": [
   "https://h5static.kuwo.cn/www/kw-www/"
@@ -365,12 +359,6 @@
  "api.v2.sukimon.me:19742": [
   "https://api.v2.sukimon.me:19742"
  ],
- "api.ikunshare.top:8000": [
-  "https://api.ikunshare.top:8000"
- ],
- "m-api.ceseet.me": [
-  "https://m-api.ceseet.me"
- ],
  "yinyue.haitangw.net": [
   "http://yinyue.haitangw.net/kg/kg_song_kw.php",
   "http://yinyue.haitangw.net/mg/migu.php",
@@ -384,6 +372,15 @@
  ],
  "a.aa.cab": [
   "https://a.aa.cab/qq.music"
+ ],
+ "api.ygking.cn": [
+  "https://api.ygking.cn/api/song/url"
+ ],
+ "api.canxiang.cn": [
+  "https://api.canxiang.cn/api/wyymusic"
+ ],
+ "api.xinghai.com": [
+  "https://api.xinghai.com/lx/api/"
  ],
  "api.xunhuisi.store": [
   "https://api.xunhuisi.store/API/QQMusic/Song.php"
@@ -419,8 +416,11 @@
   "https://img1.kwcdn.kuwo.cn",
   "https://img1.kwcdn.kuwo.cn/star/starheads/500/"
  ],
- "animemusic.bzxhkj.com": [
-  "https://animemusic.bzxhkj.com/v1/index.php"
+ "api.ikunshare.top:8000": [
+  "https://api.ikunshare.top:8000"
+ ],
+ "m-api.ceseet.me": [
+  "https://m-api.ceseet.me"
  ],
  "songsearch.kugou.com": [
   "https://songsearch.kugou.com/song_search_v2"
