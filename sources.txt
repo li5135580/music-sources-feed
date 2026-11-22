@@ -1,13 +1,15 @@
-# 音源实测榜 2026-11-22T13:09:03+0800(score>=60 启用)
-[ 52] off qq       yuafeng_qq       疑似试听  1.92s
-[ 88] ON  kuwo     haitangw_kw      320k  0.38s
-[ 85] ON  kuwo     nxinxz_kw        320k  0.9s
+# 音源实测榜 2026-11-23T00:39:46+0800(score>=60 启用)
+[ 52] off qq       yuafeng_qq       疑似试听  1.9s
+[ 88] ON  kuwo     haitangw_kw      320k  0.42s
+[ 85] ON  kuwo     nxinxz_kw        320k  0.99s
 [  0] off kuwo     oiapi_kuwo             Nones
-[ 72] ON  netease  gdstudio         320k  3.37s
-[ 20] off netease  bugpk_163              Nones
-[ 50] off lxscript lx:juhe                Nones
+[ 72] ON  netease  gdstudio         320k  4.21s
+[ 72] ON  netease  bugpk_163        320k  5.98s
 [  0] off lxscript lx:洛雪音乐自定义音源-基于GD音乐台-v1.0.0       Nones
 [  0] off lxscript lx:Script              Nones
+[  0] off lxscript lx:lx-source-script       Nones
+[  0] off lxscript lx:index               Nones
+[  0] off lxscript lx:lx                  Nones
 [  0] off lxscript lx:karpov-lx-source.user.template       Nones
 [  0] off lxscript lx:Huibq_lxmusic源       Nones
 [  0] off lxscript lx:ikun-source         Nones
@@ -18,20 +20,18 @@
 [  0] off lxscript lx:聚合API接口             Nones
 [  0] off lxscript lx:肥猫不肥                Nones
 [  0] off lxscript lx:至尊源                 Nones
-[  0] off lxscript lx:lx-source-script       Nones
-[  0] off lxscript lx:index               Nones
-[  0] off lxscript lx:lx                  Nones
 [  0] off lxscript lx:lx-custom-source       Nones
 [  0] off lxscript lx:huibq               Nones
 [  0] off lxscript lx:ikun                Nones
 [  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:sixyin              Nones
-[  0] off lxscript lx:LXMUSIC             Nones
 [  0] off lxscript lx:杰翔音乐源-2.3.0         Nones
 [  0] off lxscript lx:杰翔音乐源-2.4.0         Nones
 [  0] off lxscript lx:杰翔音乐源-2.4.1         Nones
 [  0] off lxscript lx:杰翔音乐源-2.4.2         Nones
 [  0] off lxscript lx:杰翔音乐源-2.4.3         Nones
+[  0] off lxscript lx:juhe                Nones
 [  0] off lxscript lx:我的会员音源              Nones
 [  0] off lxscript lx:MusicDownloader       Nones
 [  0] off lxscript lx:huibq               Nones
+[  0] off lxscript lx:ikun_latest         Nones
