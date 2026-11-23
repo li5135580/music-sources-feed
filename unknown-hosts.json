@@ -205,6 +205,55 @@
   "https://api.music.lerd.dpdns.org/tx",
   "https://api.music.lerd.dpdns.org/wy"
  ],
+ "88.lxmusic.xn": [
+  "https://88.lxmusic.xn"
+ ],
+ "h5static.kuwo.cn": [
+  "https://h5static.kuwo.cn/www/kw-www/"
+ ],
+ "music-dl.sayqz.com": [
+  "https://music-dl.sayqz.com/api/"
+ ],
+ "api.xcvts.cn": [
+  "https://api.xcvts.cn/api/music/migu",
+  "https://api.xcvts.cn/api/music/qq"
+ ],
+ "api.huibq.com": [
+  "https://api.huibq.com",
+  "https://api.huibq.com/api"
+ ],
+ "api.lingchuan.com": [
+  "https://api.lingchuan.com",
+  "https://api.lingchuan.com/v1"
+ ],
+ "music.haitangw.cc": [
+  "https://music.haitangw.cc/kgqq/kg.php",
+  "https://music.haitangw.cc/kgqq1/kg.php",
+  "https://music.haitangw.cc/musicapi/mg.php"
+ ],
+ "api.vsaa.cn": [
+  "http://api.vsaa.cn/api/music.qishui.vip",
+  "https://api.vsaa.cn/api/music.qishui.vip",
+  "https://api.vsaa.cn/api/music.qq"
+ ],
+ "api.open-meteo.com": [
+  "https://api.open-meteo.com/v1/forecast"
+ ],
+ "geocoding-api.open-meteo.com": [
+  "https://geocoding-api.open-meteo.com/v1/search"
+ ],
+ "ip-api.com": [
+  "http://ip-api.com/json/"
+ ],
+ "api.github.com": [
+  "https://api.github.com/repos/"
+ ],
+ "q1.qlogo.cn": [
+  "https://q1.qlogo.cn/g"
+ ],
+ "ws.stream.qqmusic.qq.com": [
+  "https://ws.stream.qqmusic.qq.com/"
+ ],
  "qm.qq.com": [
   "https://qm.qq.com/cgi-bin/qm/qr"
  ],
@@ -261,11 +310,6 @@
   "https://zrcdy.dpdns.org/lx/xinghai-music-source.js",
   "https://zrcdy.dpdns.org/xinghai-music-source.js"
  ],
- "api.vsaa.cn": [
-  "http://api.vsaa.cn/api/music.qishui.vip",
-  "https://api.vsaa.cn/api/music.qishui.vip",
-  "https://api.vsaa.cn/api/music.qq"
- ],
  "mobi.kuwo.cn": [
   "http://mobi.kuwo.cn/mobi.s",
   "https://mobi.kuwo.cn/mobi.s"
@@ -273,11 +317,6 @@
  "musicserver.haitangw.cc": [
   "https://musicserver.haitangw.cc/v1/",
   "https://musicserver.haitangw.cc/v1/music/resolve-url"
- ],
- "music.haitangw.cc": [
-  "https://music.haitangw.cc/kgqq/kg.php",
-  "https://music.haitangw.cc/kgqq1/kg.php",
-  "https://music.haitangw.cc/musicapi/mg.php"
  ],
  "www.kugou.com": [
   "https://www.kugou.com/",
@@ -293,45 +332,6 @@
  ],
  "api.xunhuisi.store": [
   "https://api.xunhuisi.store/API/QQMusic/Song.php"
- ],
- "music-dl.sayqz.com": [
-  "https://music-dl.sayqz.com/api/"
- ],
- "api.xcvts.cn": [
-  "https://api.xcvts.cn/api/music/migu",
-  "https://api.xcvts.cn/api/music/qq"
- ],
- "api.huibq.com": [
-  "https://api.huibq.com",
-  "https://api.huibq.com/api"
- ],
- "api.lingchuan.com": [
-  "https://api.lingchuan.com",
-  "https://api.lingchuan.com/v1"
- ],
- "api.open-meteo.com": [
-  "https://api.open-meteo.com/v1/forecast"
- ],
- "geocoding-api.open-meteo.com": [
-  "https://geocoding-api.open-meteo.com/v1/search"
- ],
- "ip-api.com": [
-  "http://ip-api.com/json/"
- ],
- "api.github.com": [
-  "https://api.github.com/repos/"
- ],
- "q1.qlogo.cn": [
-  "https://q1.qlogo.cn/g"
- ],
- "ws.stream.qqmusic.qq.com": [
-  "https://ws.stream.qqmusic.qq.com/"
- ],
- "88.lxmusic.xn": [
-  "https://88.lxmusic.xn"
- ],
- "h5static.kuwo.cn": [
-  "https://h5static.kuwo.cn/www/kw-www/"
  ],
  "gitee.com": [
   "https://gitee.com/Myn_1/Mao_Yuna/raw/MYN_update/lx-music/lx-玉宁熙.js",
@@ -527,6 +527,9 @@
  "y.music.163.com": [
   "https://y.music.163.com/"
  ],
+ "music.ikun0014.top": [
+  "https://music.ikun0014.top"
+ ],
  "www.s0o1.com": [
   "https://www.s0o1.com/API/wyy_music"
  ],
@@ -541,8 +544,5 @@
  ],
  "qqdecv6.942240.xyz:11451": [
   "http://qqdecv6.942240.xyz:11451"
- ],
- "music.ikun0014.top": [
-  "https://music.ikun0014.top"
  ]
 }
